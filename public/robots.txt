@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://bluemetric-website.vercel.app/sitemap.xml
