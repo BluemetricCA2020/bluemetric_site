@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'venture-capital-realizing-the-unrealized',
   title: 'Venture Capital – Realizing the Unrealized?',
-  author: 'Koen van Mierlo',
+  author: 'Team Bluemetric',
   date: '2023-11-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Venture Capital',
   image: '/images/blog/venture-capital-unrealized.png',
   body: `In the world of private markets, venture capital has grown over recent decades into an indispensable link in the financial engine of innovation. Venture capital investors provide young companies with much-needed capital injections to continue their (costly) growth strategy. The hope is that these startups transform into unicorns, whereby venture capitalists realize a multiple of their investment. Because on average 90% of startups ultimately do not succeed, investors face an elevated risk of losing their invested capital. The question therefore is whether this risk is outweighed by the high returns the investment category theoretically offers.
 

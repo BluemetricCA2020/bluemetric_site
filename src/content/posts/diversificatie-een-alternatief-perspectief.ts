@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'diversificatie-een-alternatief-perspectief',
   title: 'Diversificatie: Een Alternatief Perspectief',
-  author: 'Max Wetzer',
+  author: 'Team Bluemetric',
   date: '2024-10-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Portfolio Strategy',
   image: '/images/blog/diversificatie-alternatief-perspectief.png',
   body: `Diversificatie is widely recognized as the only "free lunch" for investors. By spreading investments across different categories, investors can reduce portfolio risk without sacrificing returns. The traditional 60/40 portfolio (60% stocks and 40% bonds) plays a central role in dampening volatility. Historically, bonds provided a counterweight to negative stock returns in approximately 50% of months due to imperfect correlation between assets.
 

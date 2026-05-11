@@ -17,6 +17,8 @@ export function useLanguage() {
 }
 
 function getInitialLang(): Lang {
+  // DUTCH DISABLED — to re-enable, uncomment the block below and remove the `return 'en'`
+  /*
   const stored = localStorage.getItem('bluemetric-lang')
   if (stored === 'en' || stored === 'nl') return stored
 
@@ -25,6 +27,7 @@ function getInitialLang(): Lang {
     .find(row => row.startsWith('country='))
     ?.split('=')[1]
   if (cookie === 'nl') return 'nl'
+  */
 
   return 'en'
 }

@@ -41,7 +41,7 @@ export default function Nav() {
         <div className="nav-inner">
           <div className="nav-logo">
             <Link to="/" className="nav-wordmark">
-              BLUEMETRIC<span>WEALTH ENGINEERING</span>
+              BLUEMETRIC
             </Link>
           </div>
           <ul className="nav-links">
@@ -61,11 +61,12 @@ export default function Nav() {
               </svg>
               {t.clientLogin}
             </a>
-            <div className="lang-toggle">
+            {/* DUTCH DISABLED — to re-enable, uncomment the block below */}
+            {/* <div className="lang-toggle">
               <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
               <span>|</span>
               <button className={lang === 'nl' ? 'active' : ''} onClick={() => setLang('nl')}>NL</button>
-            </div>
+            </div> */}
           </div>
           <button
             className={`nav-hamburger${mobileOpen ? ' open' : ''}`}

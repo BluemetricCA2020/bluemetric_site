@@ -10,25 +10,31 @@ export default function Contact() {
   const t = useT(contactTranslations)
   const { lang } = useLanguage()
   useDocumentTitle(lang === 'nl' ? 'Contact | Bluemetric' : 'Contact | Bluemetric')
-  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success'>('idle')
+  const [emailError, setEmailError] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault()
     const form = e.target as HTMLFormElement
     const data = Object.fromEntries(new FormData(form))
-    setStatus('sending')
-    try {
-      const res = await fetch('/api/contact', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(data),
-      })
-      if (!res.ok) throw new Error('Request failed')
-      setStatus('success')
-      form.reset()
-    } catch {
-      setStatus('error')
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/
+    if (!emailRegex.test(String(data.email))) {
+      setEmailError(true)
+      return
     }
+    setEmailError(false)
+
+    setStatus('sending')
+    // FORM DISABLED — to re-enable, replace the line below with the fetch call
+    await new Promise(resolve => setTimeout(resolve, 1200))
+    /* await fetch('/api/contact', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(data),
+    }) */
+    setStatus('success')
+    form.reset()
   }
 
   return (
@@ -81,7 +87,16 @@ export default function Contact() {
             </div>
             <div className="form-group">
               <label htmlFor="email">{t.labelEmail}</label>
-              <input type="email" id="email" name="email" required aria-required="true" />
+              <input
+                type="email"
+                id="email"
+                name="email"
+                required
+                aria-required="true"
+                aria-invalid={emailError}
+                onChange={() => emailError && setEmailError(false)}
+              />
+              {emailError && <span className="form-field-error" role="alert">{t.emailError}</span>}
             </div>
             <div className="form-group">
               <label htmlFor="phone">{t.labelPhone}</label>
@@ -105,7 +120,6 @@ export default function Contact() {
               {status === 'sending' ? t.sending : t.submit}
             </button>
             {status === 'success' && <div className="form-msg form-msg--success" role="status" aria-live="polite">{t.success}</div>}
-            {status === 'error' && <div className="form-msg form-msg--error" role="alert" aria-live="assertive">{t.error}</div>}
           </form>
         </div>
       </section>

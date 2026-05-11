@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'tweedehands-private-equity-portefeuille',
   title: 'Te koop: Tweedehands Private Equity portefeuille – Staat: zo goed als nieuw',
-  author: 'Max Wetzer',
+  author: 'Team Bluemetric',
   date: '2023-08-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Private Equity',
   image: '/images/blog/tweedehands-private-equity.png',
   body: `Replacement is inherent to the structure of private equity investments. After the "shelf life" of the fund expires, the investor must find a replacement to maintain exposure to the asset class. In the event that an investor is not satisfied with the size of the allocation or the quality of the fund, the investor can resell their investment on the second-hand Secondary market.
 

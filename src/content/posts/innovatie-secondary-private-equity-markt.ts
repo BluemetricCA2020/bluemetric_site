@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'innovatie-secondary-private-equity-markt',
   title: 'Innovation in the Secondary Private Equity Market',
-  author: 'Daniël Helder',
+  author: 'Team Bluemetric',
   date: '2023-08-30',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Private Equity',
   image: '/images/blog/innovatie-secondary-private-equity.jpg',
   body: `Strong growth on the second-hand private equity market has led to innovative transactional structures. A persistent "thirst" for liquidity has potential consequences for all private equity investors. Innovation in financial markets can result in unforeseen consequences.
 

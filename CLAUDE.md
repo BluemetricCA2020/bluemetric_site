@@ -17,11 +17,11 @@ No test suite is configured.
 
 **Stack:** React 19 + TypeScript + Vite, deployed to Vercel as a client-side SPA. `vercel.json` rewrites all routes to `index.html` for React Router to handle.
 
-**Routing:** Five pages (`Home`, `Services`, `Research`, `Team`, `Contact`) defined in `src/App.tsx` using `react-router-dom`. The `Nav` component is mounted outside `<Routes>` so it persists across all pages.
+**Routing:** Six pages defined in `src/App.tsx` using `react-router-dom`: `Home`, `Services`, `Research`, `BlogPost` (`/research/:slug`), `Team`, `Contact`. `Nav` is mounted outside `<Routes>` so it persists across all pages.
 
 **i18n:** Custom, no third-party library. Two languages: English (`en`) and Dutch (`nl`).
 - `src/i18n/LanguageContext.tsx` — `LanguageProvider` + `useLanguage()` hook. Language is persisted in `localStorage` and detected from a `country` cookie set by `middleware.ts`.
-- `middleware.ts` (Vercel Edge) — sets a `country=nl` cookie for visitors from NL/BE, otherwise `country=en`. Runs once per browser session.
+- `middleware.ts` (Vercel Edge) — sets a `country=en` cookie for all new visitors (no geolocation). Skips if `country` cookie already exists. Language detection order: `localStorage` → cookie → English default.
 - `src/i18n/translations/` — one file per page, each exporting an object `{ en: {...}, nl: {...} }`.
 - `src/hooks/useT.ts` — `useT(translations)` takes a `{ en, nl }` object and returns the current language's slice. Use this pattern in every page/component that needs translated text.
 

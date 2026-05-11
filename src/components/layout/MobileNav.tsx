@@ -76,11 +76,12 @@ export default function MobileNav({ open, onClose }: MobileNavProps) {
       <NavLink to="/research" className={({ isActive }) => isActive ? 'active' : ''} onClick={onClose}>{t.research}</NavLink>
       <NavLink to="/team" className={({ isActive }) => isActive ? 'active' : ''} onClick={onClose}>{t.team}</NavLink>
       <NavLink to="/contact" className={({ isActive }) => isActive ? 'active' : ''} onClick={onClose}>{t.contact}</NavLink>
-      <div className="mobile-lang-toggle">
+      {/* DUTCH DISABLED — to re-enable, uncomment the block below */}
+      {/* <div className="mobile-lang-toggle">
         <button className={lang === 'en' ? 'active' : ''} onClick={() => setLang('en')}>EN</button>
         <span>|</span>
         <button className={lang === 'nl' ? 'active' : ''} onClick={() => setLang('nl')}>NL</button>
-      </div>
+      </div> */}
       <div className="mobile-nav-cta">
         <Link to="/contact" className="cta-link" onClick={onClose}>{t.getInTouch}</Link>
         <a href="https://app.powerbi.com/reportEmbed?reportId=993a730b-5d07-42a2-aa40-cbfee12b7849&autoAuth=true&ctid=ebe51614-cea2-4666-b538-68d899bf79ea" className="nav-login" target="_blank" rel="noopener noreferrer">

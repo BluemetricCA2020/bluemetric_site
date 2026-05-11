@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'onconventionele-wijsheden-portefeuilleconstructie',
   title: '(On)conventionele Wijsheden in Portefeuilleconstructie',
-  author: 'Koen van Mierlo',
+  author: 'Team Bluemetric',
   date: '2024-02-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Portfolio Strategy',
   image: '/images/blog/onconventionele-wijsheden.png',
   body: `Tactical choices in portfolio construction do not always lead to optimal results. Even if one were able to perfectly predict future economic developments, it remains a challenge to profit from them. If _tactical_ choices are not the key to investment success, then what is?
 

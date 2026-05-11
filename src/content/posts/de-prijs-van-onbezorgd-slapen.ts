@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'de-prijs-van-onbezorgd-slapen',
   title: 'De Prijs van Onbezorgd Slapen',
-  author: 'Koen van Mierlo',
+  author: 'Team Bluemetric',
   date: '2023-09-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Risk & Returns',
   image: '/images/blog/prijs-van-onbezorgd-slapen.png',
   body: `The essence of investing lies in consciously taking risks. It seems like thoughtful wisdom, but it offers little practical guidance. First, investors must ask themselves whether they even want to take risks with their assets. Nowadays, safe investments in money markets deliver reasonable returns compared to the past ~15 years (approximately 3.5–4% in EUR and 5.5% in USD). Furthermore, on average, one will sleep more peacefully than when money is invested in risky assets such as stocks. At the same time, a classically trained economist would say: "there is no such thing as a free lunch." In other words, what do investors give up by investing in cash? Spoiler alert — a lot.
 

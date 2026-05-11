@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'hedgefondsen-rocksterren-of-vergane-glorie',
   title: 'Hedgefondsen: Financiële Rocksterren of Vergane Glorie?',
-  author: 'Max Wetzer',
+  author: 'Team Bluemetric',
   date: '2023-10-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Hedge Funds',
   image: null,
   body: `The hedge fund industry represents a fascinating yet mysterious sector. These financial professionals employ sophisticated strategies aiming to achieve consistent returns with minimal risk regardless of market conditions, pursuing what investors call "alpha" — high returns with low risk.
 

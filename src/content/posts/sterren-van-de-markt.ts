@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'sterren-van-de-markt',
   title: 'Hebben de Sterren van de Markt een Streepje Voor?',
-  author: 'Max Wetzer',
+  author: 'Team Bluemetric',
   date: '2024-03-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Market Analysis',
   image: '/images/blog/sterren-van-de-markt.png',
   body: `American stock performance over the past decade has been impressive, outperforming other developed countries by approximately 7% annually. Investors have no difficulty continuing to bet concentratedly on the Stars and Stripes. However, from a historical perspective, these recent performances are more the exception than the rule.
 

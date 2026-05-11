@@ -20,7 +20,7 @@ export const researchTranslations: { en: ResearchText; nl: ResearchText } = {
     pageHeading: 'Insights & Publications',
     pageSub: 'Research-driven perspectives on markets, asset allocation, and portfolio strategy.',
     readLink: 'Read article →',
-    filterAll: 'All authors',
+    filterAll: 'All subjects',
     note: 'Our research publications are available to clients and qualified investors. Contact us for access.',
     cards: [
       { tag: 'Private Markets', title: 'Private Equity Market Update H2 2024', meta: 'Research Paper · Q4 2024' },
@@ -34,7 +34,7 @@ export const researchTranslations: { en: ResearchText; nl: ResearchText } = {
     pageHeading: 'Inzichten & Publicaties',
     pageSub: 'Onderzoeksgedreven perspectieven op markten, asset allocatie en portefeuillestrategie.',
     readLink: 'Lees artikel →',
-    filterAll: 'Alle auteurs',
+    filterAll: 'Alle onderwerpen',
     note: 'Onze onderzoekspublicaties zijn beschikbaar voor cliënten en gekwalificeerde beleggers. Neem contact op voor toegang.',
     cards: [
       { tag: 'Private Markets', title: 'Private Equity Market Update H2 2024', meta: 'Research Paper · Q4 2024' },

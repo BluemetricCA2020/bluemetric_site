@@ -27,7 +27,6 @@ export default function Home() {
         <div className="hero-logo-lockup fade-up">
           <Brandmark width={52} height={52} variant="color" />
           <span className="hero-lockup-name">BLUEMETRIC</span>
-          <span className="hero-lockup-tagline">WEALTH ENGINEERING</span>
         </div>
         <div className="scroll-indicator">
           <span>{t.scroll}</span>

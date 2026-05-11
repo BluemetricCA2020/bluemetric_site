@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'persistentie-in-private-equity',
   title: 'Persistentie in Private Equity: Theoretisch Ideaalbeeld?',
-  author: 'Max Wetzer',
+  author: 'Team Bluemetric',
   date: '2024-03-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Private Equity',
   image: '/images/blog/persistentie-private-equity.png',
   body: `Private equity managers promote their funds to potential investors based on (strong) historical performance. However, an age-old adage teaches that "results achieved in the past offer no guarantee for the future." Nevertheless, a private equity manager's track record can be indicative of the investment proposition. Researchers established early this century that so-called _persistence_ exists within private equity. Strong relative performance in previous funds increased the likelihood of a successful follow-up fund.
 

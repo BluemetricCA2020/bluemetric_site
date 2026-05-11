@@ -3,9 +3,9 @@ import type { Post } from '../types'
 const post: Post = {
   slug: 'de-schaduwbank-van-private-equity',
   title: 'De (Schaduw)bank van Private Equity',
-  author: 'Diederik Kappelle',
+  author: 'Team Bluemetric',
   date: '2024-09-01',
-  tag: 'Monthly Market Intelligence',
+  tag: 'Private Equity',
   image: '/images/blog/schaduwbank-private-equity.png',
   body: `It is no longer a secret that the historical outperformance of private equity is driven in significant part by debt financing, or leverage. Depending on the time period, leverage accounts for approximately 60 percent (before 2000) to 40 percent (since 2008) of the total returns of the asset class. A less researched phenomenon is which parties are willing to provide this debt.
 

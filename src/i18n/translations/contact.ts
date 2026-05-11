@@ -26,6 +26,7 @@ interface ContactText {
   sending: string
   success: string
   error: string
+  emailError: string
 }
 
 export const contactTranslations: { en: ContactText; nl: ContactText } = {
@@ -57,6 +58,7 @@ export const contactTranslations: { en: ContactText; nl: ContactText } = {
     sending: 'Sending…',
     success: 'Thank you. We will be in touch shortly.',
     error: 'Something went wrong. Please try again or email us directly at info@bluemetric.nl.',
+    emailError: 'Please enter a valid email address.',
   },
   nl: {
     sectionLabel: 'Contact',
@@ -86,5 +88,6 @@ export const contactTranslations: { en: ContactText; nl: ContactText } = {
     sending: 'Versturen…',
     success: 'Dank u. Wij nemen spoedig contact met u op.',
     error: 'Er is iets misgegaan. Probeer het opnieuw of stuur ons een e-mail op info@bluemetric.nl.',
+    emailError: 'Voer een geldig e-mailadres in.',
   },
 }
