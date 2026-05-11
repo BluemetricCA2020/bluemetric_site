@@ -1,6 +1,5 @@
 import { useEffect, useRef, useCallback } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { useLanguage } from '../../i18n/LanguageContext'
 import { useT } from '../../hooks/useT'
 import { navTranslations } from '../../i18n/translations/nav'
 
@@ -10,7 +9,6 @@ interface MobileNavProps {
 }
 
 export default function MobileNav({ open, onClose }: MobileNavProps) {
-  const { lang, setLang } = useLanguage()
   const t = useT(navTranslations)
   const overlayRef = useRef<HTMLDivElement>(null)
 

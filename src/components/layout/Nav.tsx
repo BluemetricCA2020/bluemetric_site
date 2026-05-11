@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react'
 import { NavLink, Link } from 'react-router-dom'
-import { useLanguage } from '../../i18n/LanguageContext'
 import { useT } from '../../hooks/useT'
 import { navTranslations } from '../../i18n/translations/nav'
 import MobileNav from './MobileNav'
@@ -8,7 +7,6 @@ import MobileNav from './MobileNav'
 export default function Nav() {
   const [scrolled, setScrolled] = useState(false)
   const [mobileOpen, setMobileOpen] = useState(false)
-  const { lang, setLang } = useLanguage()
   const t = useT(navTranslations)
 
   useEffect(() => {
