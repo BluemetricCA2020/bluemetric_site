@@ -1,7 +1,7 @@
 export const homeTranslations = {
   en: {
     heroHeading: 'Where wealth meets its match.',
-    heroSub: 'Independent advisory for ultra-high-net-worth families and Family Offices. Data-driven. Unbiased. Fully transparent.',
+    heroSub: 'Independent investment advisory for ultra-high-net-worth families and Family Offices. Data-driven. Unbiased. Fully transparent.',
     scroll: 'Scroll',
     aboutHeading: 'We transfer wealth from a traditional approach to a professional platform',
     pillar1Title: 'Independent',

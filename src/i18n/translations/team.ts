@@ -36,7 +36,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         name: 'Jeroen Wulfse',
         role: 'Chief Commercial Officer',
         bio: 'Driving Bluemetric\'s commercial strategy and business development, strengthening client relationships and expanding the firm\'s market presence.',
-        creds: 'MSc, CFA',
+        creds: 'MSc., CFA',
       },
       {
         initials: 'DH',
@@ -64,7 +64,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         name: 'Dominique Pietersen',
         role: 'Operations Officer',
         bio: 'Brings a strong analytical and process-oriented background that aligns well with the dynamic world of private equity and investment management. Her capabilities allow her to switch gears quickly while maintaining a clear overview in a complex and results-driven environment.',
-        creds: 'LLB',
+        creds: 'LL.B.',
       },
     ],
     investment: [
@@ -94,7 +94,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         name: 'Annegien Smilde',
         role: 'Analyst',
         bio: 'Brings valuable contribution to the analyst team through her analytical skills and the automation of quantitative processes.',
-        creds: 'MSc Quantitative Finance',
+        creds: 'MSc. Quantitative Finance',
       },
       {
         initials: 'BH',
@@ -131,7 +131,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         name: 'Jeroen Wulfse',
         role: 'Chief Commercial Officer',
         bio: 'Stuurt de commerciële strategie en business development van Bluemetric aan, versterkt cliëntrelaties en vergroot de marktpositie van het bedrijf.',
-        creds: 'MSc, CFA',
+        creds: 'MSc., CFA',
       },
       {
         initials: 'DH',
@@ -159,7 +159,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         name: 'Dominique Pietersen',
         role: 'Operations Officer',
         bio: 'Brengt een sterke analystische en procesgerichte achtergrond die goed aansluit bij de dynamische wereld van private equity en investment management. Door middel van haar kwaliteiten schakelt ze snel en bewaard ze het overzicht in een complexe en resultaat gerichte omgeving.',
-        creds: 'LLB',
+        creds: 'LL.B.',
       },
     ],
     investment: [
@@ -189,7 +189,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         name: 'Annegien Smilde',
         role: 'Analist',
         bio: 'Biedt een waardevolle bijdrage aan het analistenteam vanwege haar analystische vaardigheden en het automatiseren van kwantitatieve processen.',
-        creds: 'MSc Quantitative Finance',
+        creds: 'MSc. Quantitative Finance',
       },
       {
         initials: 'BH',
