@@ -7,6 +7,9 @@ import Research from './pages/Research'
 import BlogPost from './pages/BlogPost'
 import Team from './pages/Team'
 import Contact from './pages/Contact'
+import PrivacyPolicy from './pages/PrivacyPolicy'
+import ComplaintsRemuneration from './pages/ComplaintsRemuneration'
+import Disclaimer from './pages/Disclaimer'
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -28,6 +31,9 @@ export default function App() {
         <Route path="/research/:slug" element={<BlogPost />} />
         <Route path="/team" element={<Team />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+        <Route path="/complaints-remuneration" element={<ComplaintsRemuneration />} />
+        <Route path="/disclaimer" element={<Disclaimer />} />
       </Routes>
     </BrowserRouter>
   )

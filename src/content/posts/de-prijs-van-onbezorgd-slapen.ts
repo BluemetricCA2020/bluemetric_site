@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'de-prijs-van-onbezorgd-slapen',
-  title: 'De Prijs van Onbezorgd Slapen',
+  title: 'The Price of Sleeping Soundly',
   author: 'Team Bluemetric',
   date: '2023-09-01',
   tag: 'Risk & Returns',

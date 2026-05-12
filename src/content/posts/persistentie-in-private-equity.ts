@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'persistentie-in-private-equity',
-  title: 'Persistentie in Private Equity: Theoretisch Ideaalbeeld?',
+  title: 'Persistence in Private Equity: A Theoretical Ideal?',
   author: 'Team Bluemetric',
   date: '2024-03-01',
   tag: 'Private Equity',

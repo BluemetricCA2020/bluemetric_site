@@ -198,6 +198,10 @@ img, svg { max-width: 100%; height: auto; }
 .blog-post-body strong { color: var(--navy); font-weight: 600; }
 .blog-post-body em { font-style: italic; }
 .blog-post-body blockquote { border-left: 3px solid var(--accent); padding: 4px 0 4px 20px; margin: 28px 0; color: #666; font-style: italic; }
+.blog-post-body ul { margin: 0 0 20px 0; padding-left: 20px; }
+.blog-post-body ul li { margin-bottom: 10px; padding-left: 6px; }
+.blog-post-body a { color: var(--accent); text-decoration: none; }
+.blog-post-body a:hover { text-decoration: underline; }
 .blog-post-figure { margin: 40px 0; }
 .blog-post-figure img { width: 100%; height: auto; display: block; border-radius: 3px; }
 .blog-post-not-found { max-width: 760px; margin: 140px auto; padding: 0 32px; font-size: 16px; }

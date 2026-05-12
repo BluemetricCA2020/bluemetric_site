@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'diversificatie-een-alternatief-perspectief',
-  title: 'Diversificatie: Een Alternatief Perspectief',
+  title: 'Diversification: An Alternative Perspective',
   author: 'Team Bluemetric',
   date: '2024-10-01',
   tag: 'Portfolio Strategy',

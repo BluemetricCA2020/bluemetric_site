@@ -5,8 +5,10 @@ interface ContactText {
   conversationHeading: string
   emileName: string
   emileRole: string
-  koenName: string
-  koenRole: string
+  jeroenName: string
+  jeroenRole: string
+  danielName: string
+  danielRole: string
   addressLine1: string
   addressLine2: string
   addressCountry: string
@@ -33,12 +35,14 @@ export const contactTranslations: { en: ContactText; nl: ContactText } = {
   en: {
     sectionLabel: 'Contact',
     formHeading: 'Get in touch',
-    formIntro: "We'd welcome the opportunity to discuss how we can serve your wealth management needs.",
+    formIntro: "We'd welcome the opportunity to discuss how we can serve your investment needs.",
     conversationHeading: "Let's have a conversation.",
     emileName: 'Emile van Thiel',
     emileRole: 'Managing Partner',
-    koenName: 'Koen van Mierlo',
-    koenRole: 'Managing Partner',
+    jeroenName: 'Jeroen Wulfse',
+    jeroenRole: 'Chief Commercial Officer',
+    danielName: 'Daniël Helder',
+    danielRole: 'Client Advisor',
     addressLine1: 'Claude Debussylaan 46',
     addressLine2: '1082 MD Amsterdam',
     addressCountry: 'The Netherlands',
@@ -67,8 +71,10 @@ export const contactTranslations: { en: ContactText; nl: ContactText } = {
     conversationHeading: 'Laten we in gesprek gaan.',
     emileName: 'Emile van Thiel',
     emileRole: 'Managing Partner',
-    koenName: 'Koen van Mierlo',
-    koenRole: 'Managing Partner',
+    jeroenName: 'Jeroen Wulfse',
+    jeroenRole: 'Chief Commercial Officer',
+    danielName: 'Daniël Helder',
+    danielRole: 'Client Advisor',
     addressLine1: 'Claude Debussylaan 46',
     addressLine2: '1082 MD Amsterdam',
     addressCountry: 'Nederland',

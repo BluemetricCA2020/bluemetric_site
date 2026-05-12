@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'sterren-van-de-markt',
-  title: 'Hebben de Sterren van de Markt een Streepje Voor?',
+  title: 'Do Market Stars Have an Edge?',
   author: 'Team Bluemetric',
   date: '2024-03-01',
   tag: 'Market Analysis',

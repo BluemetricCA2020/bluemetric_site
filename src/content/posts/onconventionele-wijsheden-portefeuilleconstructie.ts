@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'onconventionele-wijsheden-portefeuilleconstructie',
-  title: '(On)conventionele Wijsheden in Portefeuilleconstructie',
+  title: '(Un)conventional Wisdom in Portfolio Construction',
   author: 'Team Bluemetric',
   date: '2024-02-01',
   tag: 'Portfolio Strategy',

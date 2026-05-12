@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'de-schaduwbank-van-private-equity',
-  title: 'De (Schaduw)bank van Private Equity',
+  title: 'The (Shadow) Bank of Private Equity',
   author: 'Team Bluemetric',
   date: '2024-09-01',
   tag: 'Private Equity',

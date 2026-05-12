@@ -92,7 +92,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Footer showBrandmark brandmarkDirection="rtl" />
+      <Footer />
     </>
   )
 }

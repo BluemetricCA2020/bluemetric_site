@@ -10,7 +10,7 @@ export default function Contact() {
   const t = useT(contactTranslations)
   const { lang } = useLanguage()
   useDocumentTitle(lang === 'nl' ? 'Contact | Bluemetric' : 'Contact | Bluemetric')
-  const [status, setStatus] = useState<'idle' | 'sending' | 'success'>('idle')
+  const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle')
   const [emailError, setEmailError] = useState(false)
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
@@ -26,15 +26,18 @@ export default function Contact() {
     setEmailError(false)
 
     setStatus('sending')
-    // FORM DISABLED — to re-enable, replace the line below with the fetch call
-    await new Promise(resolve => setTimeout(resolve, 1200))
-    /* await fetch('/api/contact', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(data),
-    }) */
-    setStatus('success')
-    form.reset()
+    try {
+      const res = await fetch('/api/contact', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data),
+      })
+      if (!res.ok) throw new Error('Request failed')
+      setStatus('success')
+      form.reset()
+    } catch {
+      setStatus('error')
+    }
   }
 
   return (
@@ -45,7 +48,7 @@ export default function Contact() {
           <div className="contact-left-overlay"></div>
           <div className="contact-left-content">
             <div className="contact-brandmark">
-              <Brandmark width={60} height={60} variant="white" direction="ltr" />
+              <Brandmark width={60} height={60} variant="color" direction="ltr" />
             </div>
             <h2 className="contact-heading">{t.conversationHeading}</h2>
             <div className="contact-info">
@@ -53,15 +56,23 @@ export default function Contact() {
               <p>
                 {t.emileRole}<br />
                 <a href="mailto:evt@bluemetric.nl">evt@bluemetric.nl</a><br />
-                <a href="tel:+31683793008">+31 6 83 79 3008</a>
+                <a href="tel:+31207471060">020-7471060</a>
               </p>
             </div>
             <div className="contact-info">
-              <h4>{t.koenName}</h4>
+              <h4>{t.jeroenName}</h4>
               <p>
-                {t.koenRole}<br />
-                <a href="mailto:kvm@bluemetric.nl">kvm@bluemetric.nl</a><br />
-                <a href="tel:+31618564000">+31 6 18 56 4000</a>
+                {t.jeroenRole}<br />
+                <a href="mailto:jw@bluemetric.nl">jw@bluemetric.nl</a><br />
+                <a href="tel:+31207471062">020-7471062</a>
+              </p>
+            </div>
+            <div className="contact-info">
+              <h4>{t.danielName}</h4>
+              <p>
+                {t.danielRole}<br />
+                <a href="mailto:dh@bluemetric.nl">dh@bluemetric.nl</a><br />
+                <a href="tel:+31207471052">020-7471052</a>
               </p>
             </div>
             <div className="contact-office">
@@ -116,10 +127,11 @@ export default function Contact() {
               <label htmlFor="message">{t.labelMessage}</label>
               <textarea id="message" name="message" rows={4}></textarea>
             </div>
-            <button type="submit" className="form-submit" disabled={status === 'sending'}>
+            <button type="submit" className="form-submit" disabled={status === 'sending' || status === 'success'}>
               {status === 'sending' ? t.sending : t.submit}
             </button>
             {status === 'success' && <div className="form-msg form-msg--success" role="status" aria-live="polite">{t.success}</div>}
+            {status === 'error' && <div className="form-msg form-msg--error" role="alert" aria-live="polite">{t.error}</div>}
           </form>
         </div>
       </section>

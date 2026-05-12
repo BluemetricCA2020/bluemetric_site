@@ -13,7 +13,7 @@ export const homeTranslations = {
     philosophyQuote: '"We believe every client deserves the same rigour and access as the world\'s largest institutional investors."',
     philosophyAttr: '— Bluemetric founding principle',
     ctaHeading: 'Discover how we can serve you',
-    ctaSub: 'From strategic asset allocation to private markets advisory, we provide institutional-grade wealth engineering for families and Family Offices.',
+    ctaSub: 'From strategic asset allocation to private markets advisory, we provide institutional-grade investment advisory for families and Family Offices.',
     ctaServices: 'Our Services',
     ctaResearch: 'Insights & Research',
     ctaContact: 'Contact Us',

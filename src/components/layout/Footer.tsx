@@ -17,7 +17,7 @@ export default function Footer({ showBrandmark = false, brandmarkDirection = 'lt
         <div className="footer-grid">
           <div>
             <div className="footer-logo">
-              <Brandmark width={36} height={36} variant="white" direction={brandmarkDirection} />
+              <Brandmark width={36} height={36} variant="color" direction={brandmarkDirection} />
               <span className="footer-brand-name">Bluemetric</span>
             </div>
             <p className="footer-desc">{t.footerDesc}</p>
@@ -46,9 +46,10 @@ export default function Footer({ showBrandmark = false, brandmarkDirection = 'lt
         <div className="footer-bottom">
           <p>{t.footerCopyright}</p>
           <div>
-            <span>{t.privacyPolicy}</span>
-            <span>{t.termsOfService}</span>
-            <span>{t.disclaimer}</span>
+            <Link to="/privacy-policy">{t.privacyPolicy}</Link>
+            <Link to="/complaints-remuneration">{t.complaintsRemuneration}</Link>
+
+            <Link to="/disclaimer">{t.disclaimer}</Link>
           </div>
         </div>
       </div>

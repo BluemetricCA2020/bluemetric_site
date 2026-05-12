@@ -18,7 +18,7 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
   en: {
     pageLabel: 'Services',
     pageHeading: 'How we serve you',
-    pageSub: 'Institutional-grade wealth engineering tailored to the needs of ultra-high-net-worth families and Family Offices.',
+    pageSub: 'Institutional-grade investment advisory tailored to the needs of ultra-high-net-worth families and Family Offices.',
     sectionLabel: 'Our Expertise',
     sectionHeading: 'Five pillars of service',
     services: [
@@ -26,7 +26,7 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
         num: '01',
         title: 'Strategic Asset Allocation',
         desc: 'Constructing and continuously optimizing diversified portfolios aligned with your long-term objectives and risk appetite.',
-        items: ['Total portfolio construction & optimization', 'Risk-return profiling and scenario analysis', 'Periodic rebalancing and tactical adjustments'],
+        items: ['Total portfolio construction and optimization', 'Risk-return profiling and scenario analysis', 'Periodic rebalancing and tactical adjustments'],
       },
       {
         num: '02',
@@ -37,14 +37,14 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
       {
         num: '03',
         title: 'Monitoring',
-        desc: 'Transparent, comprehensive reporting and in-depth risk analysis across all asset classes, custodians, and structures in a single unified platform.',
-        items: ['Multi-custodian portfolio aggregation', 'Performance attribution and benchmarking', 'Custom dashboards and real-time access', 'Factor-based risk decomposition', 'Stress testing and tail-risk analysis', 'Currency and liquidity exposure management'],
+        desc: 'Transparent reporting and in-depth risk analysis across all asset classes, custodians, and structures in a single unified platform.',
+        items: ['Multi-custodian aggregation and custom dashboards', 'Performance attribution and benchmarking', 'Factor-based risk, stress testing, and liquidity analysis'],
       },
       {
         num: '04',
         title: 'Advisory',
-        desc: 'Expert guidance across public and private markets — combining tactical allocation, rigorous manager selection, and access to institutional-quality private market opportunities.',
-        items: ['Equity and fixed income fund selection', 'Tactical asset allocation and rebalancing', 'ETF and index strategy implementation', 'Left tail hedging', 'Private equity and venture capital allocation', 'Co-investment and direct deal sourcing', 'Secondary market opportunities', 'Infrastructure', 'Private debt'],
+        desc: 'Expert guidance across public and private markets, combining tactical allocation with access to institutional-quality investment opportunities.',
+        items: ['Public markets: equity, fixed income, and ETF strategies', 'Private markets: PE, VC, infrastructure, and private debt', 'Co-investments, secondaries, and tail-risk hedging'],
       },
       {
         num: '05',

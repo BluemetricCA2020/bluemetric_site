@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'hedgefondsen-rocksterren-of-vergane-glorie',
-  title: 'Hedgefondsen: Financiële Rocksterren of Vergane Glorie?',
+  title: 'Hedge Funds: Financial Rock Stars or Faded Glory?',
   author: 'Team Bluemetric',
   date: '2023-10-01',
   tag: 'Hedge Funds',

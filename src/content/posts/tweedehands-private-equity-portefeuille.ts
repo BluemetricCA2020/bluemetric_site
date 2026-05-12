@@ -2,7 +2,7 @@ import type { Post } from '../types'
 
 const post: Post = {
   slug: 'tweedehands-private-equity-portefeuille',
-  title: 'Te koop: Tweedehands Private Equity portefeuille – Staat: zo goed als nieuw',
+  title: 'For Sale: Second-Hand Private Equity Portfolio – As Good as New',
   author: 'Team Bluemetric',
   date: '2023-08-01',
   tag: 'Private Equity',
