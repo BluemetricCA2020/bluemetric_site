@@ -86,7 +86,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         initials: 'JC',
         name: 'Joost Cankrien',
         role: 'Analyst',
-        bio: 'Focuses daily on the selection, monitoring, and reporting of Private Equity funds.',
+        bio: 'Translates the outcomes of private markets fund selection and ongoing monitoring into well-substantiated recommendations for the Investment Committee. Combines thorough due diligence with data-driven reporting, ensuring clients maintain a clear view of their portfolio.',
         creds: 'MSc. Finance & Investments',
       },
       {

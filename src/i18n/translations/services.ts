@@ -48,7 +48,7 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
       },
       {
         num: '05',
-        title: 'Cashflow Planning & Monitoring',
+        title: 'Cash Flow Planning',
         desc: 'Comprehensive liquidity planning and cash flow monitoring to align investment horizons with personal and family commitments.',
         items: ['Multi-year cash flow projections', 'Liquidity management and commitment pacing', 'Distribution and capital call forecasting'],
       },
@@ -87,7 +87,7 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
       },
       {
         num: '05',
-        title: 'Cashflow Planning & Monitoring',
+        title: 'Cash Flow Planning',
         desc: 'Uitgebreide liquiditeitsplanning en cashflow-monitoring om investeringshorizonten af te stemmen op persoonlijke en familiale verplichtingen.',
         items: ['Meerjarige cashflowprojecties', 'Liquiditeitsbeheer en commitment pacing', 'Distributie- en capital call-prognoses'],
       },

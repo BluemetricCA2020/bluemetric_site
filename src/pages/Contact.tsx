@@ -55,21 +55,21 @@ export default function Contact() {
               <h4>{t.emileName}</h4>
               <p>
                 {t.emileRole}<br />
-                <a href="tel:+31207471060">020-7471060</a>
+                <a href="tel:+31207471060">+31 20 7471060</a>
               </p>
             </div>
             <div className="contact-info">
               <h4>{t.jeroenName}</h4>
               <p>
                 {t.jeroenRole}<br />
-                <a href="tel:+31207471062">020-7471062</a>
+                <a href="tel:+31207471062">+31 20 7471062</a>
               </p>
             </div>
             <div className="contact-info">
               <h4>{t.danielName}</h4>
               <p>
                 {t.danielRole}<br />
-                <a href="tel:+31207471052">020-7471052</a>
+                <a href="tel:+31207471052">+31 20 7471052</a>
               </p>
             </div>
             <div className="contact-office">

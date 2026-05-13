@@ -114,7 +114,7 @@ img, svg { max-width: 100%; height: auto; }
 .philosophy { background: var(--light); padding: 100px 0; position: relative; overflow: hidden; }
 .philosophy-inner { max-width: 1280px; margin: 0 auto; padding: 0 48px; position: relative; z-index: 2; }
 .philosophy-quote { font-family: var(--serif); font-size: clamp(28px, 3vw, 42px); font-weight: 300; font-style: italic; color: var(--navy); text-align: center; max-width: 900px; margin: 0 auto 20px; line-height: 1.4; }
-.philosophy-attr { font-size: 13px; font-weight: 500; color: var(--accent); text-align: center; letter-spacing: 1px; margin-bottom: 80px; }
+.philosophy-attr { font-size: 13px; font-weight: 500; color: var(--accent); text-align: center; letter-spacing: 1px; margin: 16px auto 80px; max-width: 900px; }
 
 /* ===== CTA SECTION (homepage) ===== */
 .cta-section { background: var(--navy); padding: 100px 0; text-align: center; position: relative; overflow: hidden; }

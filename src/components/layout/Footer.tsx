@@ -40,7 +40,7 @@ export default function Footer({ showBrandmark = false, brandmarkDirection = 'lt
           <div className="footer-contact">
             <h4>{t.footerContactTitle}</h4>
             <p>Claude Debussylaan 46<br />1082 MD Amsterdam<br />{t.footerCountry}</p>
-            <p style={{ marginTop: 16 }}><a href="mailto:info@bluemetric.nl">info@bluemetric.nl</a></p>
+            <p style={{ marginTop: 16 }}><a href="tel:+31207471050">+31 20 7471050</a><br /><a href="mailto:info@bluemetric.nl">info@bluemetric.nl</a></p>
           </div>
         </div>
         <div className="footer-bottom">

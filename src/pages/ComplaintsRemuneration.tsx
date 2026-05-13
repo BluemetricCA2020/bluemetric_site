@@ -42,7 +42,7 @@ export default function ComplaintsRemuneration() {
 
             <h2>Handling of your complaint</h2>
             <p>
-              The complaints officer is the CEO of Bluemetric. In their absence, the role is assumed by
+              The complaints officer is the managing partner of Bluemetric. In their absence, the role is assumed by
               another member of the management. The complaints officer is never the same person as the
               individual to whom the complaint relates.
             </p>
