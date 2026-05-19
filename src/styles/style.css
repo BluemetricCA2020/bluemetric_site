@@ -183,6 +183,11 @@ img, svg { max-width: 100%; height: auto; }
 .research-link { font-size: 12px; font-weight: 600; letter-spacing: 1px; text-transform: uppercase; color: var(--accent); text-decoration: none; transition: color 0.3s; margin-top: auto; }
 .research-link:hover { color: var(--navy); }
 .research-note { font-size: 13px; color: #999; font-style: italic; margin-top: 32px; text-align: center; }
+.research-pagination { display: flex; align-items: center; justify-content: center; gap: 8px; margin-top: 48px; }
+.research-pagination-btn { display: flex; align-items: center; justify-content: center; min-width: 36px; height: 36px; padding: 0 6px; border: 1px solid #dde3ec; background: #fff; color: var(--navy); font-size: 13px; font-weight: 500; cursor: pointer; border-radius: 2px; transition: border-color 0.2s, color 0.2s, background 0.2s; }
+.research-pagination-btn:hover:not(:disabled) { border-color: var(--accent); color: var(--accent); }
+.research-pagination-btn.active { background: var(--navy); color: #fff; border-color: var(--navy); }
+.research-pagination-btn:disabled { opacity: 0.35; cursor: not-allowed; }
 
 /* ===== BLOG POST ===== */
 .blog-post { background: #fff; padding-bottom: 100px; }

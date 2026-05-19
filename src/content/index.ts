@@ -9,6 +9,19 @@ import hedgefondsen from './posts/hedgefondsen-rocksterren-of-vergane-glorie'
 import slapenPrijs from './posts/de-prijs-van-onbezorgd-slapen'
 import innovatieSecondary from './posts/innovatie-secondary-private-equity-markt'
 import tweedehands from './posts/tweedehands-private-equity-portefeuille'
+import calmSeas from './posts/calm-seas-dont-make-skilled-sailors'
+import peOutlook from './posts/private-equity-outlook-herculean-trials'
+import smoothOperators from './posts/smooth-operators-vs-mr-market'
+import peValueCreation from './posts/pe-value-creation'
+import impactViaPE from './posts/impact-via-private-equity'
+import warrenBuffett from './posts/warren-buffett-private-markets'
+import isSmallBeautiful from './posts/is-small-really-beautiful'
+import peResilient from './posts/pe-resilient-uncertain-world'
+import democratisingPE from './posts/democratising-private-equity'
+import specialtyFinance from './posts/specialty-finance-private-credit'
+import peOneStepBack from './posts/pe-one-step-back-two-forward'
+import secondaryDevelopments from './posts/secondary-pe-market-developments'
+import peNavigating2026 from './posts/pe-navigating-2026'
 
 export const posts: Post[] = [
   diversificatie,
@@ -21,6 +34,19 @@ export const posts: Post[] = [
   slapenPrijs,
   innovatieSecondary,
   tweedehands,
+  calmSeas,
+  peOutlook,
+  smoothOperators,
+  peValueCreation,
+  impactViaPE,
+  warrenBuffett,
+  isSmallBeautiful,
+  peResilient,
+  democratisingPE,
+  specialtyFinance,
+  peOneStepBack,
+  secondaryDevelopments,
+  peNavigating2026,
 ]
 
 export function getPost(slug: string): Post | undefined {

@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="360" fill="white"/>
+  <text x="300" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 1 — Performance Since 2010 (31 Dec 2009 = 100)</text>
+  <!-- Gridlines: Y range 0–800, chart y=50–280, scale=0.2875px/unit -->
+  <line x1="65" y1="50" x2="610" y2="50" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="79" x2="610" y2="79" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="108" x2="610" y2="108" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="136" x2="610" y2="136" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="165" x2="610" y2="165" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="194" x2="610" y2="194" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="223" x2="610" y2="223" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="251" x2="610" y2="251" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="280" x2="610" y2="280" stroke="#999" stroke-width="1"/>
+  <!-- Y axis -->
+  <line x1="65" y1="45" x2="65" y2="284" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="54" text-anchor="end" font-size="10" fill="#666">800</text>
+  <text x="58" y="83" text-anchor="end" font-size="10" fill="#666">700</text>
+  <text x="58" y="112" text-anchor="end" font-size="10" fill="#666">600</text>
+  <text x="58" y="140" text-anchor="end" font-size="10" fill="#666">500</text>
+  <text x="58" y="169" text-anchor="end" font-size="10" fill="#666">400</text>
+  <text x="58" y="198" text-anchor="end" font-size="10" fill="#666">300</text>
+  <text x="58" y="227" text-anchor="end" font-size="10" fill="#666">200</text>
+  <text x="58" y="255" text-anchor="end" font-size="10" fill="#666">100</text>
+  <text x="58" y="284" text-anchor="end" font-size="10" fill="#666">0</text>
+  <!-- X labels: 2010–2025 every 3 years, scale=36.33px/yr -->
+  <text x="65" y="297" text-anchor="middle" font-size="10" fill="#666">2010</text>
+  <text x="174" y="297" text-anchor="middle" font-size="10" fill="#666">2013</text>
+  <text x="283" y="297" text-anchor="middle" font-size="10" fill="#666">2016</text>
+  <text x="392" y="297" text-anchor="middle" font-size="10" fill="#666">2019</text>
+  <text x="501" y="297" text-anchor="middle" font-size="10" fill="#666">2022</text>
+  <text x="610" y="297" text-anchor="middle" font-size="10" fill="#666">2025</text>
+
+  <!--
+    Y = 280 − val × 0.2875
+    PE  (14.4% p.a.):     114,180,280,440,480,750 → y: 247,228,199,154,142,64
+    Evergreens (11.6%):   112,155,225,360,440,520 → y: 248,235,215,177,154,130
+    MSCI World (10.0%):   115,160,205,330,285,430 → y: 247,234,221,185,198,156
+  -->
+
+  <!-- MSCI World line (accent blue, lighter) -->
+  <polyline points="65,247 174,234 283,221 392,185 501,198 610,156" fill="none" stroke="#4C90B7" stroke-width="2"/>
+
+  <!-- Evergreens line (gold) -->
+  <polyline points="65,248 174,235 283,215 392,177 501,154 610,130" fill="none" stroke="#C5A55A" stroke-width="2"/>
+
+  <!-- Private Equity line (navy) -->
+  <polyline points="65,247 174,228 283,199 392,154 501,142 610,64" fill="none" stroke="#1A2E4A" stroke-width="2.5"/>
+
+  <!-- End-point return labels -->
+  <text x="615" y="68" font-size="10" fill="#1A2E4A" font-weight="700">+14.4% p.a.</text>
+  <text x="615" y="134" font-size="10" fill="#C5A55A" font-weight="700">+11.6% p.a.</text>
+  <text x="615" y="160" font-size="10" fill="#4C90B7" font-weight="700">+10.0% p.a.</text>
+
+  <!-- Legend -->
+  <line x1="82" y1="318" x2="102" y2="318" stroke="#1A2E4A" stroke-width="2.5"/>
+  <text x="107" y="322" font-size="11" fill="#555">Private Equity</text>
+  <line x1="230" y1="318" x2="250" y2="318" stroke="#C5A55A" stroke-width="2"/>
+  <text x="255" y="322" font-size="11" fill="#555">Evergreens</text>
+  <line x1="360" y1="318" x2="380" y2="318" stroke="#4C90B7" stroke-width="2"/>
+  <text x="385" y="322" font-size="11" fill="#555">MSCI World</text>
+
+  <!-- Source -->
+  <text x="300" y="342" text-anchor="middle" font-size="9" fill="#999" font-style="italic">Sources: Preqin, Bloomberg. Evergreens: Partners Group, HarbourVest, Hamilton Lane, StepStone, Carlyle.</text>
+</svg>

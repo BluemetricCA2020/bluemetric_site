@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="360" fill="white"/>
+  <text x="320" y="25" text-anchor="middle" font-size="13" font-weight="600" fill="#1A2E4A">3-Year Rolling Annual Return (USD)</text>
+  <!-- Y axis label -->
+  <text transform="translate(14, 165) rotate(-90)" text-anchor="middle" font-size="9" fill="#666">Annual return (3yr)</text>
+  <!-- Gridlines: Y range −20% to 40%, 0% at y=203, scale=3.833px/% -->
+  <line x1="65" y1="50" x2="610" y2="50" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="88" x2="610" y2="88" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="127" x2="610" y2="127" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="165" x2="610" y2="165" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="203" x2="610" y2="203" stroke="#999" stroke-width="1.5"/>
+  <line x1="65" y1="242" x2="610" y2="242" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="280" x2="610" y2="280" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Y axis -->
+  <line x1="65" y1="45" x2="65" y2="284" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="54" text-anchor="end" font-size="10" fill="#666">40%</text>
+  <text x="58" y="92" text-anchor="end" font-size="10" fill="#666">30%</text>
+  <text x="58" y="131" text-anchor="end" font-size="10" fill="#666">20%</text>
+  <text x="58" y="169" text-anchor="end" font-size="10" fill="#666">10%</text>
+  <text x="58" y="207" text-anchor="end" font-size="10" fill="#666">0%</text>
+  <text x="58" y="246" text-anchor="end" font-size="10" fill="#666">-10%</text>
+  <text x="58" y="284" text-anchor="end" font-size="10" fill="#666">-20%</text>
+  <!-- X labels: 2004–2024 every 2 years, scale=27.25px/yr -->
+  <text x="65" y="297" text-anchor="middle" font-size="10" fill="#666">2004</text>
+  <text x="120" y="297" text-anchor="middle" font-size="10" fill="#666">2006</text>
+  <text x="174" y="297" text-anchor="middle" font-size="10" fill="#666">2008</text>
+  <text x="229" y="297" text-anchor="middle" font-size="10" fill="#666">2010</text>
+  <text x="283" y="297" text-anchor="middle" font-size="10" fill="#666">2012</text>
+  <text x="338" y="297" text-anchor="middle" font-size="10" fill="#666">2014</text>
+  <text x="392" y="297" text-anchor="middle" font-size="10" fill="#666">2016</text>
+  <text x="447" y="297" text-anchor="middle" font-size="10" fill="#666">2018</text>
+  <text x="501" y="297" text-anchor="middle" font-size="10" fill="#666">2020</text>
+  <text x="556" y="297" text-anchor="middle" font-size="10" fill="#666">2022</text>
+  <text x="610" y="297" text-anchor="middle" font-size="10" fill="#666">2024</text>
+
+  <!--
+    Y = 280 − (val + 20) × 3.833
+    PE excl. VC (navy):
+      2004(26%)→104  2006(28%)→96  2008(3%)→192  2010(−14%)→257
+      2012(12%)→157  2014(18%)→134  2016(11%)→161  2018(13%)→154
+      2020(10%)→165  2021(25%)→108  2022(16%)→142  2023(10%)→165  2024(6%)→180
+    MSCI World (gold):
+      2004(8%)→173  2006(22%)→119  2008(3%)→192  2010(−14%)→257
+      2012(8%)→173  2014(17%)→138  2016(7%)→177  2018(7%)→177
+      2020(12%)→157  2021(32%)→81  2022(8%)→173  2023(13%)→154  2024(19%)→131
+  -->
+
+  <!-- MSCI World line (gold) -->
+  <polyline points="65,173 120,119 174,192 229,257 283,173 338,138 392,177 447,177 501,157 528,81 556,173 583,154 610,131" fill="none" stroke="#C5A55A" stroke-width="2.5"/>
+
+  <!-- PE excl. VC line (navy) -->
+  <polyline points="65,104 120,96 174,192 229,257 283,157 338,134 392,161 447,154 501,165 528,108 556,142 583,165 610,180" fill="none" stroke="#1A2E4A" stroke-width="2.5"/>
+
+  <!-- End annotations: recent 3yr divergence -->
+  <text x="575" y="175" font-size="9" fill="#1A2E4A" font-weight="600">6%</text>
+  <text x="575" y="126" font-size="9" fill="#C5A55A" font-weight="600">19%</text>
+
+  <!-- Legend -->
+  <line x1="82" y1="318" x2="108" y2="318" stroke="#1A2E4A" stroke-width="2.5"/>
+  <text x="113" y="322" font-size="11" fill="#555">Private Equity excl. VC</text>
+  <line x1="310" y1="318" x2="336" y2="318" stroke="#C5A55A" stroke-width="2.5"/>
+  <text x="341" y="322" font-size="11" fill="#555">MSCI World Index</text>
+
+  <!-- Source -->
+  <text x="320" y="342" text-anchor="middle" font-size="9" fill="#999" font-style="italic">Source: Preqin (December 2000 – June 2025), 3-year rolling annual return (USD).</text>
+</svg>
