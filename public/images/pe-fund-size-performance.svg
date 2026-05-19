@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="380" fill="white"/>
+  <text x="320" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 1 — Impact of Fund Size on Performance</text>
+  <!-- Gridlines: Y range -1.0x to 2.0x, 0x at y=203, scale=76.67px/x -->
+  <line x1="90" y1="50" x2="580" y2="50" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="90" y1="88" x2="580" y2="88" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="90" y1="127" x2="580" y2="127" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="90" y1="165" x2="580" y2="165" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="90" y1="203" x2="580" y2="203" stroke="#999" stroke-width="1.5"/>
+  <line x1="90" y1="242" x2="580" y2="242" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="90" y1="280" x2="580" y2="280" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <!-- Y axis -->
+  <line x1="90" y1="45" x2="90" y2="284" stroke="#999" stroke-width="1"/>
+  <!-- Y axis label -->
+  <text transform="translate(14, 165) rotate(-90)" text-anchor="middle" font-size="9" fill="#666">Multiple (after vintage correction)</text>
+  <!-- Y labels -->
+  <text x="83" y="54" text-anchor="end" font-size="10" fill="#666">2.0x</text>
+  <text x="83" y="92" text-anchor="end" font-size="10" fill="#666">1.5x</text>
+  <text x="83" y="131" text-anchor="end" font-size="10" fill="#666">1.0x</text>
+  <text x="83" y="169" text-anchor="end" font-size="10" fill="#666">0.5x</text>
+  <text x="83" y="207" text-anchor="end" font-size="10" fill="#666">0.0x</text>
+  <text x="83" y="246" text-anchor="end" font-size="10" fill="#666">-0.5x</text>
+  <text x="83" y="284" text-anchor="end" font-size="10" fill="#666">-1.0x</text>
+  <!-- X axis with arrow -->
+  <line x1="90" y1="284" x2="578" y2="284" stroke="#999" stroke-width="1"/>
+  <polygon points="578,280 578,288 586,284" fill="#999"/>
+  <text x="338" y="300" text-anchor="middle" font-size="11" fill="#555">Fund size →</text>
+
+  <!--
+    Convergence fan chart: four quartile bands narrowing as fund size increases.
+    Left (small cap, x=90):   Best25%: 1.6x–0.5x | Q2: 0.5x–0.0x | Q3: 0.0x–(−0.45x) | Worst25%: (−0.45x)–(−0.8x)
+    Right (large cap, x=580): Best25%: 1.0x–0.4x | Q2: 0.4x–0.05x | Q3: 0.05x–(−0.05x) | Worst25%: (−0.05x)–(−0.2x)
+
+    Y = 280 − (val + 1.0) × 76.67
+    Left:  1.6x→81 | 0.5x→165 | 0.0x→203 | −0.45x→238 | −0.8x→265
+    Right: 1.0x→127 | 0.4x→173 | 0.05x→200 | −0.05x→207 | −0.2x→219
+  -->
+
+  <!-- Best 25% (accent blue) -->
+  <polygon points="90,81 580,127 580,173 90,165" fill="#4C90B7" opacity="0.85"/>
+  <!-- Q2 (navy) -->
+  <polygon points="90,165 580,173 580,200 90,203" fill="#1A2E4A" opacity="0.80"/>
+  <!-- Q3 (light blue-grey) -->
+  <polygon points="90,203 580,200 580,207 90,238" fill="#B8D0E4" opacity="0.75"/>
+  <!-- Worst 25% (light pink) -->
+  <polygon points="90,238 580,207 580,219 90,265" fill="#E8A8A8" opacity="0.80"/>
+
+  <!-- Band labels inside bands on left side -->
+  <text x="108" y="128" font-size="11" fill="white" font-weight="500">Best 25%</text>
+  <text x="108" y="188" font-size="10" fill="white" font-weight="500">Q2</text>
+  <text x="108" y="224" font-size="10" fill="#336" font-weight="500">Q3</text>
+  <text x="108" y="256" font-size="10" fill="#664" font-weight="500">Worst 25%</text>
+
+  <!-- Legend -->
+  <rect x="95" y="315" width="13" height="13" fill="#4C90B7" opacity="0.85"/>
+  <text x="113" y="326" font-size="11" fill="#555">Best 25%</text>
+  <rect x="210" y="315" width="13" height="13" fill="#1A2E4A" opacity="0.80"/>
+  <text x="228" y="326" font-size="11" fill="#555">Q2</text>
+  <rect x="285" y="315" width="13" height="13" fill="#B8D0E4" opacity="0.75"/>
+  <text x="303" y="326" font-size="11" fill="#555">Q3</text>
+  <rect x="355" y="315" width="13" height="13" fill="#E8A8A8" opacity="0.80"/>
+  <text x="373" y="326" font-size="11" fill="#555">Worst 25%</text>
+
+  <!-- Source -->
+  <text x="320" y="358" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Source: Preqin; performance ranked by fund size, vintage-adjusted.</text>
+</svg>

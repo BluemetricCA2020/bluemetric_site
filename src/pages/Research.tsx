@@ -9,6 +9,8 @@ import { posts, tags } from '../content'
 import PageHeader from '../components/shared/PageHeader'
 import Footer from '../components/layout/Footer'
 
+const ITEMS_PER_PAGE = 8
+
 export default function Research() {
   const t = useT(researchTranslations)
   const { lang } = useLanguage()
@@ -17,7 +19,9 @@ export default function Research() {
 
   const [activeTag, setActiveTag] = useState<string | null>(null)
   const [dropdownOpen, setDropdownOpen] = useState(false)
+  const [page, setPage] = useState(1)
   const dropdownRef = useRef<HTMLDivElement>(null)
+  const sectionRef = useRef<HTMLElement>(null)
 
   useEffect(() => {
     function handleClickOutside(e: MouseEvent) {
@@ -29,13 +33,24 @@ export default function Research() {
     return () => document.removeEventListener('mousedown', handleClickOutside)
   }, [])
 
+  useEffect(() => {
+    setPage(1)
+  }, [activeTag])
+
   const filtered = activeTag ? posts.filter(p => p.tag === activeTag) : posts
+  const totalPages = Math.ceil(filtered.length / ITEMS_PER_PAGE)
+  const paginated = filtered.slice((page - 1) * ITEMS_PER_PAGE, page * ITEMS_PER_PAGE)
+
+  function goToPage(p: number) {
+    setPage(p)
+    sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' })
+  }
 
   return (
     <>
       <PageHeader label={t.pageLabel} heading={t.pageHeading} sub={t.pageSub} />
 
-      <section className="research">
+      <section className="research" ref={sectionRef}>
         <div className="research-inner">
           <div className="research-filter-dropdown fade-up" ref={dropdownRef}>
             <button
@@ -75,7 +90,7 @@ export default function Research() {
           </div>
 
           <div className="research-grid fade-up">
-            {filtered.map(post => (
+            {paginated.map(post => (
               <Link to={`/research/${post.slug}`} className="research-card" key={post.slug}>
                 <div className="research-card-body">
                   <div className="research-tag">{post.tag}</div>
@@ -86,6 +101,37 @@ export default function Research() {
               </Link>
             ))}
           </div>
+
+          {totalPages > 1 && (
+            <nav className="research-pagination" aria-label="Research pagination">
+              <button
+                className="research-pagination-btn research-pagination-nav"
+                onClick={() => goToPage(page - 1)}
+                disabled={page === 1}
+                aria-label="Previous page"
+              >
+                ←
+              </button>
+              {Array.from({ length: totalPages }, (_, i) => i + 1).map(p => (
+                <button
+                  key={p}
+                  className={`research-pagination-btn${p === page ? ' active' : ''}`}
+                  onClick={() => goToPage(p)}
+                  aria-current={p === page ? 'page' : undefined}
+                >
+                  {p}
+                </button>
+              ))}
+              <button
+                className="research-pagination-btn research-pagination-nav"
+                onClick={() => goToPage(page + 1)}
+                disabled={page === totalPages}
+                aria-label="Next page"
+              >
+                →
+              </button>
+            </nav>
+          )}
         </div>
       </section>
 

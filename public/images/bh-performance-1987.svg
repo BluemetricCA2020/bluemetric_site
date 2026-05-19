@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="360" fill="white"/>
+  <text x="320" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 1 — Berkshire Hathaway Return Since 1987</text>
+  <!-- Gridlines: Y range 0–30,000, chart y=50–280, scale=0.00767px/unit -->
+  <line x1="65" y1="50" x2="610" y2="50" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="88" x2="610" y2="88" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="127" x2="610" y2="127" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="165" x2="610" y2="165" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="203" x2="610" y2="203" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="242" x2="610" y2="242" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="280" x2="610" y2="280" stroke="#999" stroke-width="1"/>
+  <!-- Y axis -->
+  <line x1="65" y1="45" x2="65" y2="284" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="284" text-anchor="end" font-size="10" fill="#666">0</text>
+  <text x="58" y="246" text-anchor="end" font-size="10" fill="#666">5,000</text>
+  <text x="58" y="207" text-anchor="end" font-size="10" fill="#666">10,000</text>
+  <text x="58" y="169" text-anchor="end" font-size="10" fill="#666">15,000</text>
+  <text x="58" y="131" text-anchor="end" font-size="10" fill="#666">20,000</text>
+  <text x="58" y="92" text-anchor="end" font-size="10" fill="#666">25,000</text>
+  <text x="58" y="54" text-anchor="end" font-size="10" fill="#666">30,000</text>
+  <!-- X labels: 1987–2023 every 3 years, scale=15.14px/yr -->
+  <text x="65" y="297" text-anchor="middle" font-size="10" fill="#666">1987</text>
+  <text x="110" y="297" text-anchor="middle" font-size="10" fill="#666">1990</text>
+  <text x="156" y="297" text-anchor="middle" font-size="10" fill="#666">1993</text>
+  <text x="201" y="297" text-anchor="middle" font-size="10" fill="#666">1996</text>
+  <text x="247" y="297" text-anchor="middle" font-size="10" fill="#666">1999</text>
+  <text x="292" y="297" text-anchor="middle" font-size="10" fill="#666">2002</text>
+  <text x="338" y="297" text-anchor="middle" font-size="10" fill="#666">2005</text>
+  <text x="383" y="297" text-anchor="middle" font-size="10" fill="#666">2008</text>
+  <text x="428" y="297" text-anchor="middle" font-size="10" fill="#666">2011</text>
+  <text x="474" y="297" text-anchor="middle" font-size="10" fill="#666">2014</text>
+  <text x="519" y="297" text-anchor="middle" font-size="10" fill="#666">2017</text>
+  <text x="565" y="297" text-anchor="middle" font-size="10" fill="#666">2020</text>
+  <text x="610" y="297" text-anchor="middle" font-size="10" fill="#666">2023</text>
+  <!-- Berkshire Hathaway line (navy, surges dramatically at end) -->
+  <polyline points="65,279 110,278 156,275 201,265 247,249 292,261 338,253 383,263 428,251 474,226 519,203 565,188 610,73" fill="none" stroke="#1A2E4A" stroke-width="2.5"/>
+  <!-- S&P 500 line (gold, stays lower throughout) -->
+  <polyline points="65,279 110,279 156,279 201,278 247,277 292,278 338,277 383,278 428,277 474,276 519,274 565,269 610,238" fill="none" stroke="#C5A55A" stroke-width="2.5"/>
+  <!-- Inline labels -->
+  <text x="420" y="245" font-size="11" fill="#1A2E4A" font-weight="500">Berkshire Hathaway</text>
+  <text x="420" y="260" font-size="11" fill="#C5A55A" font-weight="500">S&amp;P 500</text>
+  <!-- Source -->
+  <text x="320" y="325" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Source: Bloomberg (December 1987 – September 2024), indexed to 100 at start.</text>
+</svg>

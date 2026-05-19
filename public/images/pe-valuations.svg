@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 490" font-family="Inter, Arial, sans-serif">
+  <rect width="660" height="490" fill="white"/>
+  <text x="330" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 2 — Valuations</text>
+
+  <!-- ═══ TOP CHART: Stock Market P/E (2018–2023) ═══ -->
+  <text x="330" y="52" text-anchor="middle" font-size="12" font-weight="600" fill="#1A2E4A">Stock Market</text>
+  <text transform="translate(18, 135) rotate(-90)" text-anchor="middle" font-size="10" fill="#666">P/E North America</text>
+  <!-- Gridlines top -->
+  <line x1="65" y1="60" x2="615" y2="60" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="113" x2="615" y2="113" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="167" x2="615" y2="167" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="220" x2="615" y2="220" stroke="#999" stroke-width="1"/>
+  <!-- Top Y axis -->
+  <line x1="65" y1="55" x2="65" y2="224" stroke="#999" stroke-width="1"/>
+  <!-- Top Y labels (10x–40x) -->
+  <text x="58" y="224" text-anchor="end" font-size="11" fill="#666">10x</text>
+  <text x="58" y="171" text-anchor="end" font-size="11" fill="#666">20x</text>
+  <text x="58" y="117" text-anchor="end" font-size="11" fill="#666">30x</text>
+  <text x="58" y="64" text-anchor="end" font-size="11" fill="#666">40x</text>
+  <!-- Top X labels (2018–2023) -->
+  <text x="65" y="237" text-anchor="middle" font-size="11" fill="#666">2018</text>
+  <text x="175" y="237" text-anchor="middle" font-size="11" fill="#666">2019</text>
+  <text x="285" y="237" text-anchor="middle" font-size="11" fill="#666">2020</text>
+  <text x="395" y="237" text-anchor="middle" font-size="11" fill="#666">2021</text>
+  <text x="505" y="237" text-anchor="middle" font-size="11" fill="#666">2022</text>
+  <text x="615" y="237" text-anchor="middle" font-size="11" fill="#666">2023</text>
+  <!-- P/E line (y = 220 - (v-10)*5.333) -->
+  <!-- Data: 2018=21, late2018=14, 2019=17, mid2019=21, late2019=24, early2020=19, late2020=27, 2021=30, late2021=28, early2022=22, mid2022=19, late2022=17, 2023=20 -->
+  <polyline points="65,161 148,194 175,183 230,161 274,146 299,167 368,124 395,113 450,119 494,124 533,151 560,167 588,178 615,167" fill="none" stroke="#4C90B7" stroke-width="2.5"/>
+
+  <!-- ═══ BOTTOM CHART: Buyout Market EV/EBITDA (2018–2022) ═══ -->
+  <text x="295" y="268" text-anchor="middle" font-size="12" font-weight="600" fill="#1A2E4A">Buyout Market</text>
+  <text transform="translate(18, 355) rotate(-90)" text-anchor="middle" font-size="10" fill="#666">Median EV/EBITDA</text>
+  <!-- Gridlines bottom -->
+  <line x1="65" y1="280" x2="565" y2="280" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="333" x2="565" y2="333" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="387" x2="565" y2="387" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="440" x2="565" y2="440" stroke="#999" stroke-width="1"/>
+  <!-- Bottom Y axis -->
+  <line x1="65" y1="275" x2="65" y2="444" stroke="#999" stroke-width="1"/>
+  <!-- Bottom Y labels (5x–20x, y = 440 - (v-5)*10.667) -->
+  <text x="58" y="444" text-anchor="end" font-size="11" fill="#666">5x</text>
+  <text x="58" y="391" text-anchor="end" font-size="11" fill="#666">10x</text>
+  <text x="58" y="337" text-anchor="end" font-size="11" fill="#666">15x</text>
+  <text x="58" y="284" text-anchor="end" font-size="11" fill="#666">20x</text>
+  <!-- Bottom X labels (2018–2022) -->
+  <text x="65" y="457" text-anchor="middle" font-size="11" fill="#666">2018</text>
+  <text x="175" y="457" text-anchor="middle" font-size="11" fill="#666">2019</text>
+  <text x="285" y="457" text-anchor="middle" font-size="11" fill="#666">2020</text>
+  <text x="395" y="457" text-anchor="middle" font-size="11" fill="#666">2021</text>
+  <text x="505" y="457" text-anchor="middle" font-size="11" fill="#666">2022</text>
+  <!-- EV/EBITDA solid line (y = 440 - (v-5)*10.667) -->
+  <!-- Data: 2018=10.5, mid2018=11, 2019=12, mid2019=12.5, 2020=11, mid2020=12.5, 2021=13, mid2021=14, late2021=13.5, 2022=11 -->
+  <polyline points="65,371 120,366 175,355 230,350 285,366 340,350 395,345 450,334 476,339 505,366" fill="none" stroke="#4C90B7" stroke-width="2.5"/>
+  <!-- Dashed extension (estimated/declining) -->
+  <polyline points="505,366 533,377 560,394" fill="none" stroke="#4C90B7" stroke-width="2.5" stroke-dasharray="6,4"/>
+  <!-- Dashed bracket box -->
+  <rect x="500" y="360" width="65" height="40" fill="none" stroke="#aaa" stroke-width="1" stroke-dasharray="5,3"/>
+
+  <!-- Source -->
+  <text x="330" y="478" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Source: Bloomberg, Preqin</text>
+</svg>
