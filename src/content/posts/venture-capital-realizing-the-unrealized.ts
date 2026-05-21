@@ -15,7 +15,7 @@ When the performances of venture capital funds are ranked and split by vintage y
 
 ![](/images/blog/venture-capital-unrealized.png)
 
-However, the foregoing comparison compared total returns — a combination of (i) realized distributions and (ii) residual value in the portfolio. Another comparison looks at the investment styles solely based on realized returns. Here one of the challenges of venture capital becomes apparent: translating promising companies into concrete distributions.
+However, the foregoing comparison compared total returns: a combination of (i) realized distributions and (ii) residual value in the portfolio. Another comparison looks at the investment styles solely based on realized returns. Here one of the challenges of venture capital becomes apparent: translating promising companies into concrete distributions.
 
 ![](/images/blog/venture-capital-fig2.png)
 
@@ -29,11 +29,11 @@ Although the aforementioned venture capital funds still show a higher average re
 
 Alternative information sources provide insight into actual pricing within private markets:
 
-1. **Secondary transactions** — interests in venture capital funds sold in the first half of 2023 came with a relatively high discount of 31% compared to previous years.
+1. **Secondary transactions.** Interests in venture capital funds sold in the first half of 2023 came with a relatively high discount of 31% compared to previous years.
 
-2. **Venture Capital index** — with listed portfolio companies of venture capital funds down ~50% since the peak.
+2. **Venture Capital index.** Listed portfolio companies of venture capital funds are down ~50% since the peak.
 
-3. **Listed trusts** — tradable venture capital trusts currently trade at a discount of ~60% to their net intrinsic value. At the end of 2022 the discount was only 5–10%.
+3. **Listed trusts.** Tradable venture capital trusts currently trade at a discount of ~60% to their net intrinsic value. At the end of 2022 the discount was only 5–10%.
 
 In short, substantial uncertainty exists about the ultimate liquidation value of active venture capital portfolios. Nevertheless, the best-performing venture capital funds are indeed able to achieve high returns for their investors. Therefore, committed investors in venture capital aim to implement the most successful funds while simultaneously avoiding loss-making funds.
 
@@ -41,11 +41,11 @@ The practical implementation of venture capital funds comes with major challenge
 
 ![](/images/blog/venture-capital-fig4.png)
 
-- **Identification** — ~40% of venture capital funds achieving a high multiple (>4x) are a "first-time" fund. Unless from one's own network, it is a major challenge to identify such parties in advance.
+- **Identification.** ~40% of venture capital funds achieving a high multiple (>4x) are a "first-time" fund. Unless from one's own network, it is a major challenge to identify such parties in advance.
 
-- **Selection** — ~60% of funds with a multiple >4x is (i) a first-time fund and/or (ii) has a size smaller than USD 50m. Information provision at these parties is generally limited, which complicates selection.
+- **Selection.** ~60% of funds with a multiple >4x is (i) a first-time fund and/or (ii) has a size smaller than USD 50m. Information provision at these parties is generally limited, which complicates selection.
 
-- **Access** — Finally, one must be able to obtain access to the fund in question. Many successful venture capital parties do not simply make their funds available to new investors.
+- **Access.** Finally, one must be able to obtain access to the fund in question. Many successful venture capital parties do not simply make their funds available to new investors.
 
 ## Bluemetric Insight
 

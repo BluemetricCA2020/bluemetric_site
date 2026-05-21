@@ -19,13 +19,13 @@ Investments in CLO equity bear initial credit losses but also offer attractive r
 
 Common reasons for not investing in CLOs are higher complexity and confusion with the infamous Collateralized Debt Obligations (CDOs), known from the 2008 financial crisis. Besides the acronym appearing similar to CLOs, they have no financial exposure correspondence. Furthermore, some investors believe CLOs provide double exposure to companies held by private equity managers. However, while the underlying companies show some overlap, the risk-return profile of CLO equity is actually complementary to private equity and forms a valuable addition to the portfolio. These diversification benefits are driven by several components:
 
-**1. Senior Capital Position** — Leveraged loans have first lien in case of bankruptcy, making actual credit losses relatively limited (the historical recovery rate exceeds 70%). Meanwhile, private equity investors typically lose their investment in bankruptcy.
+**1. Senior Capital Position.** Leveraged loans have first lien in case of bankruptcy, making actual credit losses relatively limited (the historical recovery rate exceeds 70%). Meanwhile, private equity investors typically lose their investment in bankruptcy.
 
-**2. Contractual Cash Flows** — Coupon payments from leveraged loans provide income under most market conditions. To illustrate: in 2022, when both listed equities and bonds declined (respectively -13.3% and -10.5%), CLO equity delivered an average return of +11.8%.
+**2. Contractual Cash Flows.** Coupon payments from leveraged loans provide income under most market conditions. To illustrate: in 2022, when both listed equities and bonds declined (respectively -13.3% and -10.5%), CLO equity delivered an average return of +11.8%.
 
-**3. Active Management** — CLO managers typically may reinvest early-repaid principals in new loans. Thus, during periods of market volatility (e.g., around the financial crisis and the Covid pandemic), one can purchase discounted loans. Private equity experiences headwinds during these years.
+**3. Active Management.** CLO managers typically may reinvest early-repaid principals in new loans. Thus, during periods of market volatility (e.g., around the financial crisis and the Covid pandemic), one can purchase discounted loans. Private equity experiences headwinds during these years.
 
-**4. Interest Rate Impact** — Because both leveraged loans and CLO debt tranches have variable interest rates, CLO equity returns are relatively robust to rising rates. However, for private equity investors, returns are pressured by higher interest costs experienced by their companies.
+**4. Interest Rate Impact.** Because both leveraged loans and CLO debt tranches have variable interest rates, CLO equity returns are relatively robust to rising rates. However, for private equity investors, returns are pressured by higher interest costs experienced by their companies.
 
 On a vintage basis, there is clear diversification benefit visible from including both investment categories to stabilize returns of an illiquid portfolio.
 

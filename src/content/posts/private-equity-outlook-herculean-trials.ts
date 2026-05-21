@@ -11,9 +11,9 @@ const post: Post = {
 
 It seems central banks have succeeded; after one of the most aggressive tightening cycles in decades, inflation is stabilising. But, _at what cost?_ The rise in policy rates increased expected returns for various investment categories after risk-bearing investments led the return rankings. Private equity investors benefited for years from cheap debt financing. Now that the tide has turned, they are confronted with a succession of obstacles to overcome:
 
-**1. More expensive debt financing** — Private equity returns (particularly in the Large Cap Buyout segment) are largely dependent on leverage. Rising interest costs lead to declining profits at _existing_ investments, making companies more vulnerable to economic shocks. As a result, lenders have become more cautious and the availability of attractive debt financing is lower. In turn, this means that more equity must be deployed for _new_ investments, which suppresses return potential.
+**1. More expensive debt financing.** Private equity returns (particularly in the Large Cap Buyout segment) are largely dependent on leverage. Rising interest costs lead to declining profits at _existing_ investments, making companies more vulnerable to economic shocks. As a result, lenders have become more cautious and the availability of attractive debt financing is lower. In turn, this means that more equity must be deployed for _new_ investments, which suppresses return potential.
 
-**2. Declining deal activity** — After consecutive record years, transaction volume in 2023 is at a low level (Figure 1).
+**2. Declining deal activity.** After consecutive record years, transaction volume in 2023 is at a low level (Figure 1).
 
 ![Figure 1 — Deal Activity Development](/images/pe-deal-activity.svg)
 
@@ -21,7 +21,7 @@ In addition to the challenge around debt financing, valuations are at a more con
 
 ![Figure 2 — Valuations](/images/pe-valuations.svg)
 
-**3. More selective fundraising** — (i) the absence of distributions, (ii) a more sombre market sentiment, and (iii) intense competition are hindering fund managers in their growth ambitions. In 2023, it took an average of 19 months to raise new fund capital, compared to 15 months in 2019. Moreover, investors have become more selective, with established private equity names capturing the majority of new capital.
+**3. More selective fundraising.** (i) the absence of distributions, (ii) a more sombre market sentiment, and (iii) intense competition are hindering fund managers in their growth ambitions. In 2023, it took an average of 19 months to raise new fund capital, compared to 15 months in 2019. Moreover, investors have become more selective, with established private equity names capturing the majority of new capital.
 
 ## The Twelve Labours
 

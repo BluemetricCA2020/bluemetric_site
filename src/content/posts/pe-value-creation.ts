@@ -21,7 +21,7 @@ The private equity market has changed significantly over the past 40 years. The 
 
 ## Operational Excellence
 
-Today, the comparison with vultures is largely outdated. Fund managers have three methods to create value in their investments: (i) revenue/profit growth, (ii) multiple expansion — i.e. selling on at a higher valuation — and (iii) use of debt. As the industry has matured, the focus has shifted from debt to multiple expansion and growth (see Figure 1).
+Today, the comparison with vultures is largely outdated. Fund managers have three methods to create value in their investments: (i) revenue/profit growth, (ii) multiple expansion, i.e. selling on at a higher valuation, and (iii) use of debt. As the industry has matured, the focus has shifted from debt to multiple expansion and growth (see Figure 1).
 
 ![Figure 1 — Value Creation Bridge](/images/pe-value-creation-bridge.svg)
 
@@ -29,11 +29,11 @@ _Source: Institute for Private Capital: Performance Analysis and Attribution wit
 
 ## Leverage: Perspective Matters
 
-In 2024, most fund managers claim that the use of debt now plays a limited role in their strategy. Viewed from the perspective of the underlying companies, this is correct — debt repayment on average even makes a negative contribution to total value creation (-14% since 2008). This is because fund managers typically continue to add debt as the company grows.
+In 2024, most fund managers claim that the use of debt now plays a limited role in their strategy. Viewed from the perspective of the underlying companies, this is correct: debt repayment on average even makes a negative contribution to total value creation (-14% since 2008). This is because fund managers typically continue to add debt as the company grows.
 
 However, debt influences the value creation process through two channels. In addition to debt repayment, the initial leverage has an important impact on returns from the investor's perspective. This component has had a considerable impact since 2008, with +39% (39% - 14% = 25% in Figure 1). Overlooking this debt aspect presents an incomplete picture of a fund's risk profile. Investors should take this into account during the selection process.
 
-The more value is created through growth, the more operationally involved a fund manager is, and the greater the likelihood that the (successful) strategy is repeatable. In other words, a _top-performing_ manager with experience optimising business processes, expanding into new markets, or possessing a strong network can consistently apply this knowledge to new investments. Managers learn, for example, which marketing and sales methods are effective within a particular sector — and which are not. This accelerated learning curve increases the probability of success and, therefore, a good return.
+The more value is created through growth, the more operationally involved a fund manager is, and the greater the likelihood that the (successful) strategy is repeatable. In other words, a _top-performing_ manager with experience optimising business processes, expanding into new markets, or possessing a strong network can consistently apply this knowledge to new investments. Managers learn, for example, which marketing and sales methods are effective within a particular sector, and which are not. This accelerated learning curve increases the probability of success and, therefore, a good return.
 
 Increasingly, fund managers have dedicated teams focused exclusively on these operational improvements. These specialists are deployed as an in-house consultancy at portfolio companies to accelerate growth and optimise processes. The size and experience of these teams gives investors a good indication of how robust the value creation process is.
 

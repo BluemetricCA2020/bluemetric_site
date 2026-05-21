@@ -47,8 +47,10 @@ export default function BlogPost() {
     <>
       <article className="blog-post">
         <div className="blog-post-inner">
-          <Link to="/research" className="blog-post-back">← Back to Research</Link>
-          <div className="research-tag">{post.tag}</div>
+          <div className="blog-post-header-row">
+            <Link to="/research" className="blog-post-back">← Back to Research</Link>
+            <div className="research-tag">{post.tag}</div>
+          </div>
           <h1 className="blog-post-title">{post.title}</h1>
           <p className="blog-post-meta">{post.author} · {formattedDate}</p>
           <div
