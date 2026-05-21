@@ -10,7 +10,7 @@ function renderBody(body: string): string {
     .map(block => {
       if (block.startsWith('## ')) return `<h2>${block.slice(3)}</h2>`
       if (block.startsWith('### ')) return `<h3>${block.slice(4)}</h3>`
-      if (block.startsWith('> ')) return `<blockquote>${block.slice(2)}</blockquote>`
+      if (block.startsWith('> ')) return `<blockquote>${block.replace(/^> /gm, '').replace(/\n/g, '<br>')}</blockquote>`
       const imgMatch = block.match(/^!\[([^\]]*)\]\(([^)]+)\)$/)
       if (imgMatch) return `<figure class="blog-post-figure"><img src="${imgMatch[2]}" alt="${imgMatch[1]}" /></figure>`
       return `<p>${block

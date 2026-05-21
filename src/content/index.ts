@@ -47,7 +47,7 @@ export const posts: Post[] = [
   peOneStepBack,
   secondaryDevelopments,
   peNavigating2026,
-]
+].sort((a, b) => b.date.localeCompare(a.date))
 
 export function getPost(slug: string): Post | undefined {
   return posts.find(p => p.slug === slug)
