@@ -19,7 +19,7 @@ In principle, Secondary parties use two structures for their transactions.
 
 In Limited Partner transactions (LP transactions), the private equity investor sells part of their portfolio to a Secondary fund. This often occurs at a discount, whereby the fund reports high early returns. To illustrate: the discount in the second half of 2022 averaged 16%, which directly results in a multiple of 1.2x.
 
-Investors opt for such transactions at (i) a marginal residual value in the fund, (ii) the expiry of the fund term at a fund-of-funds, (iii) a need for liquidity, or (iv) rebalancing. The latter reason played an important role in 2022. After price declines in capital markets led to a relatively increased exposure to private equity, institutional investors proceeded to sell their stakes to rebalance their portfolio — the so-called "denominator effect."
+Investors opt for such transactions at (i) a marginal residual value in the fund, (ii) the expiry of the fund term at a fund-of-funds, (iii) a need for liquidity, or (iv) rebalancing. The latter reason played an important role in 2022. After price declines in capital markets led to a relatively increased exposure to private equity, institutional investors proceeded to sell their stakes to rebalance their portfolio: the so-called "denominator effect."
 
 ## 2. Complex Secondary Transactions (GP-led Transactions)
 
@@ -29,10 +29,10 @@ The volume in GP-led transactions depends on the amount of available capital, th
 
 Moreover, investors in the fund are enabled to continue investing with the manager in the portfolio company if they prefer this over early liquidity. This seems to create a win-win situation for all parties involved. However, in practice, GP-led transactions often prove to be a breeding ground for conflicts of interest in the following respects:
 
-1. **Valuation** — Because the fund manager is both the buying and selling party, this leads to conflicts over price.
-2. **Evaluation Period** — Where the manager would like to close a deal as soon as possible, the investor needs sufficient time to evaluate the proposition.
-3. **Carried Interest** — Any proceeds after the resale of the business potentially reduce the alignment of interests between the fund manager and the investor.
-4. **Value Creation Plan** — Towards the end of the fund term, a fund manager can defer intended value creation initiatives. Because the GP has a larger stake in the holding after the transaction, it benefits by implementing the transformation only after the transaction.
+1. **Valuation.** Because the fund manager is both the buying and selling party, this leads to conflicts over price.
+2. **Evaluation Period.** Where the manager would like to close a deal as soon as possible, the investor needs sufficient time to evaluate the proposition.
+3. **Carried Interest.** Any proceeds after the resale of the business potentially reduce the alignment of interests between the fund manager and the investor.
+4. **Value Creation Plan.** Towards the end of the fund term, a fund manager can defer intended value creation initiatives. Because the GP has a larger stake in the holding after the transaction, it benefits by implementing the transformation only after the transaction.
 
 For investors, some of the conflicts of interest can be resolved by (i) an independent valuation, (ii) an adequate decision period, and (iii) confirmation that the fund manager is reinvesting their carried interest in the company. However, investors must trust that managers are not delaying the implementation of value creation initiatives.
 

@@ -13,7 +13,7 @@ const post: Post = {
 
 _"A rising tide lifts all boats."_ This saying aptly illustrates the state of capital markets, and private equity in particular, since the aftermath of the financial crisis. The market was characterised by low interest rates, abundant credit provision, and ever-rising valuations. Under these favourable conditions, many private equity managers were able to consistently outperform public markets without too much effort, often with the help of leverage. As a result, the asset class has delivered as much as 4–5% per year more for investors compared to listed equities since the start of the 21st century. In recent years, investors therefore entered with high expectations. But at the same time, calm seas don't make skilled sailors. It remains to be seen whether these expectations can be met.
 
-As a result of economic uncertainty, the waters in which private equity operates have become choppier. Yet the colourful pitch decks of new funds show that managers still expect high returns. The targets they set — a gross return of three times the investment and +25% IRR — still seem to be the norm rather than the exception. Is this misleading for new investors, or are we underestimating the agility of the asset class to adapt to changing tides?
+As a result of economic uncertainty, the waters in which private equity operates have become choppier. Yet the colourful pitch decks of new funds show that managers still expect high returns. The targets they set: a gross return of three times the investment and +25% IRR, still seem to be the norm rather than the exception. Is this misleading for new investors, or are we underestimating the agility of the asset class to adapt to changing tides?
 
 ## Four Horsemen of the Apocalypse
 

@@ -7,7 +7,7 @@ const post: Post = {
   date: '2023-09-01',
   tag: 'Risk & Returns',
   image: '/images/blog/prijs-van-onbezorgd-slapen.png',
-  body: `The essence of investing lies in consciously taking risks. It seems like thoughtful wisdom, but it offers little practical guidance. First, investors must ask themselves whether they even want to take risks with their assets. Nowadays, safe investments in money markets deliver reasonable returns compared to the past ~15 years (approximately 3.5–4% in EUR and 5.5% in USD). Furthermore, on average, one will sleep more peacefully than when money is invested in risky assets such as stocks. At the same time, a classically trained economist would say: "there is no such thing as a free lunch." In other words, what do investors give up by investing in cash? Spoiler alert — a lot.
+  body: `The essence of investing lies in consciously taking risks. It seems like thoughtful wisdom, but it offers little practical guidance. First, investors must ask themselves whether they even want to take risks with their assets. Nowadays, safe investments in money markets deliver reasonable returns compared to the past ~15 years (approximately 3.5–4% in EUR and 5.5% in USD). Furthermore, on average, one will sleep more peacefully than when money is invested in risky assets such as stocks. At the same time, a classically trained economist would say: "there is no such thing as a free lunch." In other words, what do investors give up by investing in cash? Spoiler alert: a lot.
 
 ## 1. The Advantages of Volatility
 
@@ -37,7 +37,7 @@ The "rational" solution for long-term investors seems simple: incorporate riskie
 
 > "Far more money has been lost by investors preparing or anticipating for corrections, than has been lost in corrections themselves." — Peter Lynch
 
-Furthermore, investors extrapolate recent events to form future expectations. The expected future return of an investment increases after a recent price decline, while investors expect a lower return — meaning they become more pessimistic during times of good prospects.
+Furthermore, investors extrapolate recent events to form future expectations. The expected future return of an investment increases after a recent price decline, while investors expect a lower return, meaning they become more pessimistic during times of good prospects.
 
 Finally, media plays an important role in investor pessimism. News has an asymmetrical effect on expectations. Articles with negative sentiment increase pessimism, but positive articles have no effect. Paradoxically, by the time the media reports on something, it is already reflected in prices.
 

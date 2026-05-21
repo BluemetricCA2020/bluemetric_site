@@ -19,11 +19,11 @@ Professional investors will rarely base an allocation decision solely on returns
 
 With a well-known and relatively simple recipe, it matters less which cook prepares the dish. It is therefore unlikely that consistently selecting good or bad managers can be explained solely by analyzing a track record. This implies that future returns also depend on other (harder to observe) factors. Below are several potential candidates and considerations.
 
-**1. Deal Dependency** — Fund returns are the result of individual transactions (after costs). Further analysis of return distribution within the fund provides insight into how much fund performance depends on outliers. It appears that limiting loss-making deals is more decisive for persistence than achieving a few home runs that drive fund returns.
+**1. Deal Dependency.** Fund returns are the result of individual transactions (after costs). Further analysis of return distribution within the fund provides insight into how much fund performance depends on outliers. It appears that limiting loss-making deals is more decisive for persistence than achieving a few home runs that drive fund returns.
 
-**2. Qualitative Factors** — The lower measurability of these factors leads to increased subjectivity. Assessing aspects such as team cohesion, organizational stability, or robustness of internal processes is harder to generalize. Nevertheless, qualitative factors do have influence on the risk-return profile of a fund and form an essential link in the due diligence process.
+**2. Qualitative Factors.** The lower measurability of these factors leads to increased subjectivity. Assessing aspects such as team cohesion, organizational stability, or robustness of internal processes is harder to generalize. Nevertheless, qualitative factors do have influence on the risk-return profile of a fund and form an essential link in the due diligence process.
 
-**3. Data Availability** — During the selection phase, investors do not have final fund performance because most recent investments have not yet been sold. As a result, the figures available at that time can differ significantly from the ultimate return. Even if private equity managers' final performances are persistent, this interim uncertainty limits practical usability for the investment decision.
+**3. Data Availability.** During the selection phase, investors do not have final fund performance because most recent investments have not yet been sold. As a result, the figures available at that time can differ significantly from the ultimate return. Even if private equity managers' final performances are persistent, this interim uncertainty limits practical usability for the investment decision.
 
 In conclusion, clinging to historical performance when selecting fund managers is unwise. Persistence is influenced by many factors and depends on changes in the market landscape.
 

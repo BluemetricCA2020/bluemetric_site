@@ -17,7 +17,7 @@ The Secondary market has traditionally been used by Limited Partners to liquidat
 
 ![](/images/blog/innovatie-secondary-fig2.png)
 
-In 2022, rebalancing of their portfolio was the most important motivation for 48% of the Limited Partners that resold their stake. After price reductions in public markets led to a relatively increased exposure to private equity, institutional investors proceeded to resell their stake in order to rebalance their portfolio — the so-called "denominator effect."
+In 2022, rebalancing of their portfolio was the most important motivation for 48% of the Limited Partners that resold their stake. After price reductions in public markets led to a relatively increased exposure to private equity, institutional investors proceeded to resell their stake in order to rebalance their portfolio: the so-called "denominator effect."
 
 ## …to More Complex Transaction Structures
 
@@ -31,16 +31,16 @@ A prime example is the company Action. In 2011, the originally Dutch discount ch
 
 Thus, GP-led transactions offer a solution for fund managers to generate liquidity. Additionally, investors in the fund have the option to reinvest in the portfolio company if they prefer this over early liquidity. This seems to create a win-win situation for all parties involved. However, in practice, there are several potential conflicts of interest:
 
-1. **Valuation** — Because the fund manager is both the buying and selling party, this leads to conflicts over price.
-2. **Evaluation Period** — Where the manager would like to close a deal as soon as possible, the investor needs sufficient time to evaluate the proposition.
-3. **Carried Interest** — Any proceeds after the resale of the business potentially reduce the alignment of interests between the fund manager and the investor.
-4. **Value Creation Plan** — Towards the end of the fund term, a fund manager can defer intended value creation initiatives. Because the GP has a larger stake in the holding after the transaction, it benefits by implementing the transformation only after the transaction.
+1. **Valuation.** Because the fund manager is both the buying and selling party, this leads to conflicts over price.
+2. **Evaluation Period.** Where the manager would like to close a deal as soon as possible, the investor needs sufficient time to evaluate the proposition.
+3. **Carried Interest.** Any proceeds after the resale of the business potentially reduce the alignment of interests between the fund manager and the investor.
+4. **Value Creation Plan.** Towards the end of the fund term, a fund manager can defer intended value creation initiatives. Because the GP has a larger stake in the holding after the transaction, it benefits by implementing the transformation only after the transaction.
 
 For investors, some of the conflicts of interest can be resolved by (i) an independent valuation, (ii) an adequate decision period, and (iii) confirmation that the fund manager is reinvesting its carried interest in the company. However, investors should be confident that managers are not delaying the implementation of value creation initiatives.
 
 ## Has Pandora's Box Been Opened?
 
-According to Greek mythology, Pandora was given a box that she was not allowed to open — but her curiosity overcame her. This unleashed all the evils trapped inside. In today's world, this myth serves as an analogy for situations where seemingly innocent actions have unintended consequences. Similarly, the recent developments in the Secondary market are affecting other investors in private equity.
+According to Greek mythology, Pandora was given a box that she was not allowed to open, but her curiosity overcame her. This unleashed all the evils trapped inside. In today's world, this myth serves as an analogy for situations where seemingly innocent actions have unintended consequences. Similarly, the recent developments in the Secondary market are affecting other investors in private equity.
 
 Firstly, an increasing number of General Partners are using Secondary transactions to generate liquidity in their fund structures. Investors in these funds must decide whether they want to "roll over" their interest. However, due to the short evaluation period, many investors are unable to properly assess the transaction and are then forced into a mandatory liquidation. As a result, they may miss out on further upside potential.
 

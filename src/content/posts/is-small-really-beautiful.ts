@@ -7,7 +7,7 @@ const post: Post = {
   date: '2025-02-05',
   tag: 'Private Equity',
   image: null,
-  body: `Investors seeking exposure to private equity typically diversify their buyout allocation by market segment. A recurring question is whether managers in the Large Cap segment can still add sufficient value. We examine the added value — and the additional risks — that funds from different market segments can contribute to a private equity portfolio.
+  body: `Investors seeking exposure to private equity typically diversify their buyout allocation by market segment. A recurring question is whether managers in the Large Cap segment can still add sufficient value. We examine the added value, and the additional risks, that funds from different market segments can contribute to a private equity portfolio.
 
 A well-known phenomenon in actively managed public funds is that once investors identify a successful fund manager, an increase in committed capital follows. However, as fund size grows, it typically becomes harder to continue beating the market. The decline in alpha is driven in part by factors such as increased competition in the upper segment and correspondingly fewer inefficiencies to exploit.
 
@@ -15,13 +15,13 @@ In private equity, a similar dynamic exists in fundraising. Successful buyout ma
 
 ## Dispersion vs. Average
 
-A logical starting point for this question is to assess the historical returns of buyout managers. Looking at performance ranked by fund size and adjusted for the specific vintage year, a clear pattern emerges (see Figure 1). Smaller funds offer potentially stronger performance than larger funds. However, the same sword cuts both ways — the likelihood of significantly below-average returns also increases. On average, the difference between the two market segments is marginal.
+A logical starting point for this question is to assess the historical returns of buyout managers. Looking at performance ranked by fund size and adjusted for the specific vintage year, a clear pattern emerges (see Figure 1). Smaller funds offer potentially stronger performance than larger funds. However, the same sword cuts both ways: the likelihood of significantly below-average returns also increases. On average, the difference between the two market segments is marginal.
 
 ![Figure 1 — Impact of Fund Size on Performance](/images/pe-fund-size-performance.svg)
 
 _Source: Preqin; performance ranked by fund size, vintage-adjusted._
 
-Furthermore, the data presented may be subject to a selection bias. The availability of data on Small Cap funds depends more heavily on managers who voluntarily disclose their own results. Since underperforming funds are less inclined to publicise their track record, an artificially upward bias in reported Small Cap performance may arise — skewing conclusions in favour of the Small Cap segment. (Many private markets databases rely on the Freedom of Information Act for their data, which requires public pension funds to disclose their investments. Given their large capital positions, most pension funds invest primarily in Large Cap funds, making information provision in that segment comparatively more transparent.)
+Furthermore, the data presented may be subject to a selection bias. The availability of data on Small Cap funds depends more heavily on managers who voluntarily disclose their own results. Since underperforming funds are less inclined to publicise their track record, an artificially upward bias in reported Small Cap performance may arise, skewing conclusions in favour of the Small Cap segment. (Many private markets databases rely on the Freedom of Information Act for their data, which requires public pension funds to disclose their investments. Given their large capital positions, most pension funds invest primarily in Large Cap funds, making information provision in that segment comparatively more transparent.)
 
 ## Mythbusting: Nuancing the Stereotypes
 
@@ -29,7 +29,7 @@ Of course, we cannot drive forward by looking in the rear-view mirror. Before an
 
 **1. Large Cap value creation is primarily driven by debt financing.**
 
-The use of debt financing is a conventional component of buyout investments, but the degree to which managers rely on external financing varies considerably. Large Cap transactions carry a substantially higher debt multiple (debt relative to EBITDA) of approximately 5x, compared to roughly 3x for Small Cap transactions. However, the debt ratio — debt relative to enterprise value — is much more comparable between the two segments: approximately 50% versus 45%. This implies that both segments are similarly dependent on the leverage effect of debt in their value creation process.
+The use of debt financing is a conventional component of buyout investments, but the degree to which managers rely on external financing varies considerably. Large Cap transactions carry a substantially higher debt multiple (debt relative to EBITDA) of approximately 5x, compared to roughly 3x for Small Cap transactions. However, the debt ratio, debt relative to enterprise value, is much more comparable between the two segments: approximately 50% versus 45%. This implies that both segments are similarly dependent on the leverage effect of debt in their value creation process.
 
 **2. The Large Cap segment offers little room for operational improvements.**
 
@@ -37,7 +37,7 @@ Large Cap managers typically acquire stakes in large, more professionalised busi
 
 **3. The Large Cap segment is more competitive than Small Cap.**
 
-The number of available companies in the Large Cap segment is naturally lower than in the Small Cap segment. With a growing number of market participants, this can drive up company valuations. And indeed, purchase multiples in the Large Cap segment tend to be higher than in the Small Cap segment. While this may partly reflect supply and demand dynamics, the higher risks in the Small Cap segment also exert a dampening effect on valuations. It is therefore not accurate to assess the degree of competition solely through observed prices. Lower multiples — and correspondingly higher risks — do, however, offer enhanced upside potential for investors in the Small Cap segment.
+The number of available companies in the Large Cap segment is naturally lower than in the Small Cap segment. With a growing number of market participants, this can drive up company valuations. And indeed, purchase multiples in the Large Cap segment tend to be higher than in the Small Cap segment. While this may partly reflect supply and demand dynamics, the higher risks in the Small Cap segment also exert a dampening effect on valuations. It is therefore not accurate to assess the degree of competition solely through observed prices. Lower multiples, and correspondingly higher risks, do, however, offer enhanced upside potential for investors in the Small Cap segment.
 
 ## Include Both in a PE Portfolio?
 
