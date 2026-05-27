@@ -1,3 +1,17 @@
 {
+  "redirects": [
+    { "source": "/en/wealth-engineering", "destination": "/services", "permanent": true },
+    { "source": "/nl/wealth-engineering", "destination": "/services", "permanent": true },
+    { "source": "/en/content",            "destination": "/research", "permanent": true },
+    { "source": "/nl/content",            "destination": "/research", "permanent": true },
+    { "source": "/en/content-news",       "destination": "/research", "permanent": true },
+    { "source": "/nl/content-nieuws",     "destination": "/research", "permanent": true },
+    { "source": "/en/news",               "destination": "/research", "permanent": true },
+    { "source": "/nl/nieuws",             "destination": "/research", "permanent": true },
+    { "source": "/en/koen-van-mierlo",    "destination": "/team",     "permanent": true },
+    { "source": "/nl/koen-van-mierlo",    "destination": "/team",     "permanent": true },
+    { "source": "/en/:path*",             "destination": "/",         "permanent": true },
+    { "source": "/nl/:path*",             "destination": "/",         "permanent": true }
+  ],
   "rewrites": [{ "source": "/((?!api/).*)", "destination": "/index.html" }]
 }
