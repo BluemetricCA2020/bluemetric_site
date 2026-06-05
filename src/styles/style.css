@@ -69,7 +69,7 @@ img, svg { max-width: 100%; height: auto; }
 .hero-bg { position: absolute; inset: 0; background-size: cover; background-position: center 30%; }
 .hero-overlay { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(15,30,46,0.3) 0%, rgba(15,30,46,0.55) 50%, rgba(15,30,46,0.85) 100%); }
 .hero-brandmark { position: absolute; right: -60px; top: 50%; transform: translateY(-50%); opacity: 0.06; pointer-events: none; }
-.hero-content { position: relative; z-index: 2; width: 100%; padding: 22vh 48px 0 80px; }
+.hero-content { position: relative; z-index: 2; width: 100%; padding: max(140px, 22vh) 48px 0 80px; }
 .hero-label { font-size: 12px; font-weight: 600; letter-spacing: 3px; text-transform: uppercase; color: var(--accent); margin-bottom: 20px; }
 .hero-logo-lockup { position: absolute; z-index: 2; right: 80px; bottom: 48px; display: flex; flex-direction: column; align-items: center; gap: 10px; }
 .hero-lockup-name { font-family: var(--sans); font-size: 16px; font-weight: 300; letter-spacing: 8px; text-transform: uppercase; color: rgba(255,255,255,0.55); }
@@ -326,7 +326,7 @@ img, svg { max-width: 100%; height: auto; }
 /* ===== RESPONSIVE: MOBILE (below 768px) ===== */
 @media (max-width: 767px) {
   .hero { min-height: 100vh; min-height: 100dvh; }
-  .hero-content { padding: 28vh 20px 0; width: 100%; }
+  .hero-content { padding: max(120px, 28vh) 20px 0; width: 100%; }
   .hero-heading { font-size: clamp(28px, 8vw, 40px); max-width: 90%; }
   .hero-sub { font-size: 14px; max-width: 90%; }
   .hero-label { font-size: 10px; }
