@@ -22,6 +22,7 @@ import specialtyFinance from './posts/specialty-finance-private-credit'
 import peOneStepBack from './posts/pe-one-step-back-two-forward'
 import secondaryDevelopments from './posts/secondary-pe-market-developments'
 import peNavigating2026 from './posts/pe-navigating-2026'
+import privateCreditStressTest from './posts/private-credit-stress-test'
 
 export const posts: Post[] = [
   diversificatie,
@@ -47,6 +48,7 @@ export const posts: Post[] = [
   peOneStepBack,
   secondaryDevelopments,
   peNavigating2026,
+  privateCreditStressTest,
 ].sort((a, b) => b.date.localeCompare(a.date))
 
 export function getPost(slug: string): Post | undefined {

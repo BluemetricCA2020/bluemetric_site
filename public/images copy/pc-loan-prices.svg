@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 340" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="340" fill="white"/>
+  <text x="320" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 2 — Loan Market Price Declines</text>
+  <!-- Gridlines: Y range 88–100, chart y=50–270, scale=18.33px/unit -->
+  <line x1="65" y1="50"  x2="580" y2="50"  stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="87"  x2="580" y2="87"  stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="123" x2="580" y2="123" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="160" x2="580" y2="160" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="197" x2="580" y2="197" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="233" x2="580" y2="233" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="270" x2="580" y2="270" stroke="#999" stroke-width="1"/>
+  <!-- Y axis -->
+  <line x1="65" y1="46" x2="65" y2="274" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="274" text-anchor="end" font-size="10" fill="#666">88</text>
+  <text x="58" y="237" text-anchor="end" font-size="10" fill="#666">90</text>
+  <text x="58" y="201" text-anchor="end" font-size="10" fill="#666">92</text>
+  <text x="58" y="164" text-anchor="end" font-size="10" fill="#666">94</text>
+  <text x="58" y="127" text-anchor="end" font-size="10" fill="#666">96</text>
+  <text x="58" y="91"  text-anchor="end" font-size="10" fill="#666">98</text>
+  <text x="58" y="54"  text-anchor="end" font-size="10" fill="#666">100</text>
+  <!-- X labels: Nov 25 to Apr 26 -->
+  <text x="65"  y="287" text-anchor="middle" font-size="10" fill="#666">Nov '25</text>
+  <text x="168" y="287" text-anchor="middle" font-size="10" fill="#666">Dec '25</text>
+  <text x="271" y="287" text-anchor="middle" font-size="10" fill="#666">Jan '26</text>
+  <text x="374" y="287" text-anchor="middle" font-size="10" fill="#666">Feb '26</text>
+  <text x="477" y="287" text-anchor="middle" font-size="10" fill="#666">Mar '26</text>
+  <text x="580" y="287" text-anchor="middle" font-size="10" fill="#666">Apr '26</text>
+  <!-- Software loans (accent blue — sharp drop) -->
+  <polyline points="65,87 168,105 271,123 374,233 477,224 580,197" fill="none" stroke="#4C90B7" stroke-width="2.5"/>
+  <!-- Broader loan market (navy — gradual decline) -->
+  <polyline points="65,105 168,114 271,123 374,151 477,160 580,142" fill="none" stroke="#1A2E4A" stroke-width="2.5"/>
+  <!-- Legend -->
+  <line x1="210" y1="308" x2="227" y2="308" stroke="#4C90B7" stroke-width="2.5"/>
+  <text x="232" y="312" font-size="10" fill="#555">Software</text>
+  <line x1="310" y1="308" x2="327" y2="308" stroke="#1A2E4A" stroke-width="2.5"/>
+  <text x="332" y="312" font-size="10" fill="#555">Loan Market</text>
+  <!-- Source -->
+  <text x="320" y="330" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Source: Bank of America (2026).</text>
+</svg>

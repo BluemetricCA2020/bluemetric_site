@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 380" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="380" fill="white"/>
+  <text x="320" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 1 — BDC Performance vs. Global Equity Market</text>
+  <!-- Gridlines: Y range 40–140, chart y=50–270, scale=2.2px/unit -->
+  <line x1="65" y1="50"  x2="580" y2="50"  stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="94"  x2="580" y2="94"  stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="138" x2="580" y2="138" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="182" x2="580" y2="182" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="226" x2="580" y2="226" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="270" x2="580" y2="270" stroke="#999" stroke-width="1"/>
+  <!-- Y axis -->
+  <line x1="65" y1="46" x2="65" y2="274" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="274" text-anchor="end" font-size="10" fill="#666">40</text>
+  <text x="58" y="230" text-anchor="end" font-size="10" fill="#666">60</text>
+  <text x="58" y="186" text-anchor="end" font-size="10" fill="#666">80</text>
+  <text x="58" y="142" text-anchor="end" font-size="10" fill="#666">100</text>
+  <text x="58" y="98"  text-anchor="end" font-size="10" fill="#666">120</text>
+  <text x="58" y="54"  text-anchor="end" font-size="10" fill="#666">140</text>
+  <!-- X labels: Apr-25 to Apr-26, every 2 months -->
+  <text x="65"  y="287" text-anchor="middle" font-size="10" fill="#666">Apr '25</text>
+  <text x="151" y="287" text-anchor="middle" font-size="10" fill="#666">Jun '25</text>
+  <text x="237" y="287" text-anchor="middle" font-size="10" fill="#666">Aug '25</text>
+  <text x="323" y="287" text-anchor="middle" font-size="10" fill="#666">Oct '25</text>
+  <text x="408" y="287" text-anchor="middle" font-size="10" fill="#666">Dec '25</text>
+  <text x="494" y="287" text-anchor="middle" font-size="10" fill="#666">Feb '26</text>
+  <text x="580" y="287" text-anchor="middle" font-size="10" fill="#666">Apr '26</text>
+  <!-- World equity market (gray) -->
+  <polyline points="65,138 151,125 237,127 323,123 408,116 494,145 580,145" fill="none" stroke="#aaa" stroke-width="2"/>
+  <!-- Ares (gold) -->
+  <polyline points="65,138 151,138 237,145 323,153 408,160 494,178 580,182" fill="none" stroke="#C5A55A" stroke-width="2"/>
+  <!-- Blackstone (deep) -->
+  <polyline points="65,138 151,136 237,138 323,143 408,149 494,162 580,165" fill="none" stroke="#326B8A" stroke-width="2"/>
+  <!-- Blue Owl (accent — dropped most) -->
+  <polyline points="65,138 151,138 237,147 323,160 408,177 494,215 580,222" fill="none" stroke="#4C90B7" stroke-width="2"/>
+  <!-- KKR (navy) -->
+  <polyline points="65,138 151,138 237,143 323,149 408,156 494,173 580,175" fill="none" stroke="#1A2E4A" stroke-width="2"/>
+  <!-- Legend row -->
+  <line x1="65" y1="308" x2="82" y2="308" stroke="#aaa" stroke-width="2"/>
+  <text x="87" y="312" font-size="10" fill="#555">Global Equity</text>
+  <line x1="176" y1="308" x2="193" y2="308" stroke="#C5A55A" stroke-width="2"/>
+  <text x="198" y="312" font-size="10" fill="#555">Ares</text>
+  <line x1="240" y1="308" x2="257" y2="308" stroke="#326B8A" stroke-width="2"/>
+  <text x="262" y="312" font-size="10" fill="#555">Blackstone</text>
+  <line x1="345" y1="308" x2="362" y2="308" stroke="#4C90B7" stroke-width="2"/>
+  <text x="367" y="312" font-size="10" fill="#555">Blue Owl</text>
+  <line x1="430" y1="308" x2="447" y2="308" stroke="#1A2E4A" stroke-width="2"/>
+  <text x="452" y="312" font-size="10" fill="#555">KKR</text>
+  <!-- Source -->
+  <text x="320" y="348" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Source: Bloomberg (2026). Global equity market: MSCI World. Indexed to 100 at April 2025.</text>
+</svg>
