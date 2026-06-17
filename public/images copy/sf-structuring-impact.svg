@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="360" fill="white"/>
+  <text x="310" y="25" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 1 — Impact of Structuring (Illustrative)</text>
+  <!-- Y axis label -->
+  <text transform="translate(14, 162) rotate(-90)" text-anchor="middle" font-size="9" fill="#666">Return</text>
+  <!-- Gridlines: Y range 5–20%, chart y=50–275, scale=15px/% -->
+  <line x1="65" y1="50" x2="560" y2="50" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="125" x2="560" y2="125" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="200" x2="560" y2="200" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="275" x2="560" y2="275" stroke="#999" stroke-width="1"/>
+  <!-- Y axis -->
+  <line x1="65" y1="45" x2="65" y2="279" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="54" text-anchor="end" font-size="10" fill="#666">20%</text>
+  <text x="58" y="129" text-anchor="end" font-size="10" fill="#666">15%</text>
+  <text x="58" y="204" text-anchor="end" font-size="10" fill="#666">10%</text>
+  <text x="58" y="279" text-anchor="end" font-size="10" fill="#666">5%</text>
+  <!-- X axis labels: 0%–16% defaults, scale=30.94px/% -->
+  <text x="65" y="292" text-anchor="middle" font-size="10" fill="#666">0%</text>
+  <text x="127" y="292" text-anchor="middle" font-size="10" fill="#666">2%</text>
+  <text x="189" y="292" text-anchor="middle" font-size="10" fill="#666">4%</text>
+  <text x="251" y="292" text-anchor="middle" font-size="10" fill="#666">6%</text>
+  <text x="313" y="292" text-anchor="middle" font-size="10" fill="#666">8%</text>
+  <text x="375" y="292" text-anchor="middle" font-size="10" fill="#666">10%</text>
+  <text x="437" y="292" text-anchor="middle" font-size="10" fill="#666">12%</text>
+  <text x="499" y="292" text-anchor="middle" font-size="10" fill="#666">14%</text>
+  <text x="561" y="292" text-anchor="middle" font-size="10" fill="#666">16%</text>
+  <text x="313" y="308" text-anchor="middle" font-size="10" fill="#555">Default rate</text>
+
+  <!--
+    Y = 275 − (val − 5) × 15
+    Unstructured (grey dashed): (0%→19%) (4%→16%) (7%→11%) (10%→8%) (14%→5.5%) (16%→5%)
+      y: 65, 110, 185, 230, 268, 275
+    Structured (navy solid): (0%→15%) (4%→15%) (7%→14%) (10%→12%) (14%→8%) (16%→6.5%)
+      y: 125, 125, 140, 170, 230, 252
+  -->
+
+  <!-- Annotation: 7% default rate vertical guide -->
+  <line x1="282" y1="125" x2="282" y2="275" stroke="#ccc" stroke-width="1" stroke-dasharray="3,2"/>
+  <text x="286" y="275" font-size="8" fill="#999">7%</text>
+
+  <!-- Return without structuring (grey dashed) -->
+  <polyline points="65,65 189,110 282,185 375,230 499,268 561,275" fill="none" stroke="#999" stroke-width="2" stroke-dasharray="7,4"/>
+
+  <!-- Return with structuring (navy solid) -->
+  <polyline points="65,125 189,125 282,140 375,170 499,230 561,252" fill="none" stroke="#1A2E4A" stroke-width="2.5"/>
+
+  <!-- Gap annotation at 7% defaults -->
+  <line x1="282" y1="140" x2="282" y2="185" stroke="#C5A55A" stroke-width="1.5"/>
+  <text x="290" y="156" font-size="9" fill="#C5A55A" font-weight="600">14%</text>
+  <text x="290" y="190" font-size="9" fill="#888">11%</text>
+
+  <!-- Legend -->
+  <line x1="380" y1="80" x2="408" y2="80" stroke="#999" stroke-width="2" stroke-dasharray="7,4"/>
+  <text x="413" y="84" font-size="10" fill="#555">Without structuring</text>
+  <line x1="380" y1="98" x2="408" y2="98" stroke="#1A2E4A" stroke-width="2.5"/>
+  <text x="413" y="102" font-size="10" fill="#555">With structuring</text>
+
+  <!-- Source -->
+  <text x="310" y="332" text-anchor="middle" font-size="9" fill="#999" font-style="italic">Illustrative. At 7% defaults (comparable to 2008), structured return = 14% vs unstructured = 11%.</text>
+</svg>

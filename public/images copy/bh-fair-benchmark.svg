@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 360" font-family="Inter, Arial, sans-serif">
+  <rect width="640" height="360" fill="white"/>
+  <text x="320" y="28" text-anchor="middle" font-size="14" font-weight="600" fill="#1A2E4A">Figure 4 — Berkshire Hathaway vs Adjusted Benchmark (indexed 100)</text>
+  <!-- Gridlines: Y range 0–1000, chart y=50–280, scale=0.23px/unit -->
+  <line x1="65" y1="50" x2="610" y2="50" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="96" x2="610" y2="96" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="142" x2="610" y2="142" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="188" x2="610" y2="188" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="234" x2="610" y2="234" stroke="#ddd" stroke-width="1" stroke-dasharray="4,3"/>
+  <line x1="65" y1="280" x2="610" y2="280" stroke="#999" stroke-width="1"/>
+  <!-- Y axis -->
+  <line x1="65" y1="45" x2="65" y2="284" stroke="#999" stroke-width="1"/>
+  <!-- Y labels -->
+  <text x="58" y="54" text-anchor="end" font-size="10" fill="#666">1,000</text>
+  <text x="58" y="100" text-anchor="end" font-size="10" fill="#666">800</text>
+  <text x="58" y="146" text-anchor="end" font-size="10" fill="#666">600</text>
+  <text x="58" y="192" text-anchor="end" font-size="10" fill="#666">400</text>
+  <text x="58" y="238" text-anchor="end" font-size="10" fill="#666">200</text>
+  <text x="58" y="284" text-anchor="end" font-size="10" fill="#666">0</text>
+  <!-- X labels: 2000–2022 every 2 years, scale=24.77px/yr -->
+  <text x="65" y="297" text-anchor="middle" font-size="10" fill="#666">2000</text>
+  <text x="115" y="297" text-anchor="middle" font-size="10" fill="#666">2002</text>
+  <text x="164" y="297" text-anchor="middle" font-size="10" fill="#666">2004</text>
+  <text x="214" y="297" text-anchor="middle" font-size="10" fill="#666">2006</text>
+  <text x="263" y="297" text-anchor="middle" font-size="10" fill="#666">2008</text>
+  <text x="313" y="297" text-anchor="middle" font-size="10" fill="#666">2010</text>
+  <text x="362" y="297" text-anchor="middle" font-size="10" fill="#666">2012</text>
+  <text x="412" y="297" text-anchor="middle" font-size="10" fill="#666">2014</text>
+  <text x="461" y="297" text-anchor="middle" font-size="10" fill="#666">2016</text>
+  <text x="511" y="297" text-anchor="middle" font-size="10" fill="#666">2018</text>
+  <text x="561" y="297" text-anchor="middle" font-size="10" fill="#666">2020</text>
+  <text x="610" y="297" text-anchor="middle" font-size="10" fill="#666">2022</text>
+
+  <!--
+    Y positions: y = 280 - val*0.23
+    BH (9.9% CAGR): 100,122,160,200,155,230,300,390,430,580,510,800
+    S&P (8.2% CAGR): 100,80,110,145,100,140,185,255,285,390,400,570
+    Fair benchmark: 100,125,165,205,158,235,305,395,435,590,520,810
+  -->
+
+  <!-- S&P 500 line (gold) -->
+  <polyline points="65,257 115,262 164,255 214,247 263,257 313,248 362,237 412,221 461,214 511,190 561,188 610,149" fill="none" stroke="#C5A55A" stroke-width="2.5"/>
+
+  <!-- Fair benchmark line (accent blue, dashed) -->
+  <polyline points="65,257 115,251 164,242 214,233 263,244 313,226 362,210 412,189 461,180 511,144 561,160 610,94" fill="none" stroke="#4C90B7" stroke-width="2" stroke-dasharray="6,3"/>
+
+  <!-- Berkshire Hathaway line (navy) -->
+  <polyline points="65,257 115,252 164,243 214,234 263,244 313,227 362,211 412,190 461,181 511,147 561,163 610,96" fill="none" stroke="#1A2E4A" stroke-width="2.5"/>
+
+  <!-- End-point annotations -->
+  <text x="615" y="99" font-size="10" fill="#1A2E4A" font-weight="600">BH</text>
+  <text x="615" y="97" dy="13" font-size="9" fill="#1A2E4A">9.9%</text>
+  <text x="615" y="97" dy="26" font-size="9" fill="#4C90B7">Fair 9.9%</text>
+  <text x="615" y="152" font-size="10" fill="#C5A55A" font-weight="600">S&amp;P</text>
+  <text x="615" y="152" dy="12" font-size="9" fill="#C5A55A">8.2%</text>
+
+  <!-- Legend -->
+  <line x1="82" y1="318" x2="100" y2="318" stroke="#1A2E4A" stroke-width="2.5"/>
+  <text x="105" y="322" font-size="11" fill="#555">Berkshire Hathaway</text>
+  <line x1="255" y1="318" x2="273" y2="318" stroke="#4C90B7" stroke-width="2" stroke-dasharray="6,3"/>
+  <text x="278" y="322" font-size="11" fill="#555">Fair benchmark</text>
+  <line x1="410" y1="318" x2="428" y2="318" stroke="#C5A55A" stroke-width="2.5"/>
+  <text x="433" y="322" font-size="11" fill="#555">S&amp;P 500</text>
+
+  <!-- Source -->
+  <text x="320" y="345" text-anchor="middle" font-size="10" fill="#999" font-style="italic">Source: Bloomberg; Frazzini, Kabiller &amp; Pedersen (2018), adjusted for private market exposure.</text>
+</svg>
