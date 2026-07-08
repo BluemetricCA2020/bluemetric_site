@@ -33,7 +33,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Fascinated by the challenges of constructing robust portfolios that match client objectives. Ensures Bluemetric\'s services are always client-driven, objective and innovative.',
         creds: 'LL.M., CAIA',
         linkedin: 'https://www.linkedin.com/in/emile-van-thiel-3b444a2/',
-        photo: '/images/team/emile-van-thiel.jpg',
+        photo: '/images/team/emile-van-thiel.webp',
       },
       {
         initials: 'JW',
@@ -42,7 +42,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Driving Bluemetric\'s commercial strategy and business development, strengthening client relationships and expanding the firm\'s market presence.',
         creds: 'MSc., CFA',
         linkedin: 'https://www.linkedin.com/in/jeroenwulfse/',
-        photo: '/images/team/jeroen-wulfse.jpg',
+        photo: '/images/team/jeroen-wulfse.webp',
       },
       {
         initials: 'DH',
@@ -51,7 +51,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Likes to take on the role of devil\'s advocate to ensure all interests are weighed for careful, well-founded investment decisions.',
         creds: 'MSc. Finance & Investments',
         linkedin: 'https://www.linkedin.com/in/dani%C3%ABl-helder/',
-        photo: '/images/team/daniel-helder.jpg',
+        photo: '/images/team/daniel-helder.webp',
       },
       {
         initials: 'JV',
@@ -60,7 +60,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Contributes with an analytical mindset, translating complex financial material into clear and concise advice. Tailored to the unique goals of each client, he focuses on what adds real value.',
         creds: 'MSc. Finance, CFA',
         linkedin: 'https://www.linkedin.com/in/joepvleugels/',
-        photo: '/images/team/joep-vleugels.jpg',
+        photo: '/images/team/joep-vleugels.webp',
       },
       {
         initials: 'AV',
@@ -69,7 +69,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Passionate about helping families translate their financial goals and personal values into long-term investment strategies.',
         creds: 'MSc. Strategic Management',
         linkedin: 'https://www.linkedin.com/in/alexveth/',
-        photo: '/images/team/alex-veth.jpg',
+        photo: '/images/team/alex-veth.webp',
       },
       {
         initials: 'LP',
@@ -78,7 +78,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Enjoys being part of the dynamic of translating a client\'s wishes to her colleagues and vice versa. Her accuracy, speed, and high degree of focus make her highly valued by clients and colleagues alike.',
         creds: 'MSc. Finance & Investments, CFA',
         linkedin: 'https://www.linkedin.com/in/lisa-pelk/',
-        photo: '/images/team/lisa-pelk.jpg',
+        photo: '/images/team/lisa-pelk.webp',
       },
       {
         initials: 'GvN',
@@ -87,7 +87,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Supports day-to-day operations at Bluemetric and serves as a key link between clients, colleagues, and external parties. With an eye for detail and a structured working approach, she contributes to the further professionalisation of processes and the safeguarding of quality.',
         creds: 'BSc. Business Administration',
         linkedin: 'https://www.linkedin.com/in/gina-van-nijendaal-55681b97/',
-        photo: '/images/team/gina-van-nijendaal.jpg',
+        photo: '/images/team/gina-van-nijendaal.webp',
       },
       {
         initials: 'DP',
@@ -96,7 +96,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Brings a strong analytical and process-oriented background that aligns well with the dynamic world of private equity and investment management. Her capabilities allow her to switch gears quickly while maintaining a clear overview in a complex and results-driven environment.',
         creds: 'LL.B.',
         linkedin: 'https://www.linkedin.com/in/dominique-pietersen-a427631a7/',
-        photo: '/images/team/dominique-pietersen.jpg',
+        photo: '/images/team/dominique-pietersen.webp',
       },
     ],
     investment: [
@@ -107,7 +107,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Responsible for the analyst team and a driving force behind the development of innovative investment concepts across public and private markets.',
         creds: 'MSc. Financial Economics, LL.M., CFA, CAIA',
         linkedin: 'https://www.linkedin.com/in/koen-van-mierlo-4a47b698/',
-        photo: '/images/team/koen-van-mierlo.jpg',
+        photo: '/images/team/koen-van-mierlo.webp',
       },
       {
         initials: 'DK',
@@ -116,7 +116,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Combines in-depth knowledge of the Private Equity sector with comprehensive analyses for the Investment Committee, emphasising less obvious factors.',
         creds: 'MSc. Financial Economics, CAIA',
         linkedin: 'https://www.linkedin.com/in/diederik-kappelle-889043b9/',
-        photo: '/images/team/diederik-kappelle.jpg',
+        photo: '/images/team/diederik-kappelle.webp',
       },
       {
         initials: 'JC',
@@ -125,7 +125,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Translates the outcomes of private markets fund selection and ongoing monitoring into well-substantiated recommendations for the Investment Committee. Combines thorough due diligence with data-driven reporting, ensuring clients maintain a clear view of their portfolio.',
         creds: 'MSc. Finance & Investments',
         linkedin: 'https://www.linkedin.com/in/joost-cankrien/',
-        photo: '/images/team/joost-cankrien.jpg',
+        photo: '/images/team/joost-cankrien.webp',
       },
       {
         initials: 'AS',
@@ -134,7 +134,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Brings valuable contribution to the analyst team through her analytical skills and the automation of quantitative processes.',
         creds: 'MSc. Quantitative Finance',
         linkedin: 'https://www.linkedin.com/in/annegiensmilde/',
-        photo: '/images/team/annegien-smilde.jpg',
+        photo: '/images/team/annegien-smilde.webp',
       },
       {
         initials: 'BH',
@@ -143,7 +143,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Applies his quantitative skills to the development of financial analyses and the automation of investment processes.',
         creds: 'MSc. Econometrics & Operations Research',
         linkedin: 'https://www.linkedin.com/in/benjamin-houkes-935121183/',
-        photo: '/images/team/benjamin-houkes.jpg',
+        photo: '/images/team/benjamin-houkes.webp',
       },
       {
         initials: 'BvL',
@@ -152,7 +152,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Combines a sharp analytical mindset with a broad interest in financial markets, contributing to rigorous investment research and portfolio analysis across asset classes.',
         creds: 'MSc. Finance',
         linkedin: 'https://www.linkedin.com/in/bart-van-lidth-de-jeude-a747842a0/',
-        photo: '/images/team/bart-van-lidth.jpg',
+        photo: '/images/team/bart-van-lidth.webp',
       },
       {
         initials: 'NvL',
@@ -161,7 +161,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Brings an analytical background combined with a broad perspective on financial markets, translating into clear, data-driven insights while maintaining an overview of the wider context in which asset classes operate.',
         creds: 'MSc. Econometrics',
         linkedin: 'https://www.linkedin.com/in/nick-van-leeuwen-3aa759232/',
-        photo: '/images/team/nick-van-leeuwen.jpg',
+        photo: '/images/team/nick-van-leeuwen.webp',
       },
       {
         initials: 'RdH',
@@ -170,7 +170,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Combines independent judgement with a critical and analytical approach. Based on the diversified experience he brings, he challenges assumptions and underlying drivers rather than relying on external narratives.',
         creds: 'MSc. Business Administration',
         linkedin: 'https://www.linkedin.com/in/rik-de-haan/',
-        photo: '/images/team/rik-de-haan.jpg',
+        photo: '/images/team/rik-de-haan.webp',
       },
     ],
   },
@@ -188,7 +188,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Gefascineerd door de uitdagingen van het samenstellen van robuuste portefeuilles die aansluiten bij cliëntdoelstellingen. Zorgt ervoor dat de dienstverlening van Bluemetric altijd cliëntgericht, objectief en innovatief is.',
         creds: 'LL.M., CAIA',
         linkedin: 'https://www.linkedin.com/in/emile-van-thiel-3b444a2/',
-        photo: '/images/team/emile-van-thiel.jpg',
+        photo: '/images/team/emile-van-thiel.webp',
       },
       {
         initials: 'JW',
@@ -197,7 +197,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Verantwoordelijk voor de commerciële strategie en business development van Bluemetric, met als doel het verstevigen van cliëntrelaties en het uitbreiden van de marktpositie van de onderneming.',
         creds: 'MSc., CFA',
         linkedin: 'https://www.linkedin.com/in/jeroenwulfse/',
-        photo: '/images/team/jeroen-wulfse.jpg',
+        photo: '/images/team/jeroen-wulfse.webp',
       },
       {
         initials: 'DH',
@@ -206,7 +206,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Neemt graag de rol van advocaat van de duivel op zich, zodat alle belangen worden meegewogen in zorgvuldige, goed onderbouwde beleggingsbeslissingen.',
         creds: 'MSc. Finance & Investments',
         linkedin: 'https://www.linkedin.com/in/dani%C3%ABl-helder/',
-        photo: '/images/team/daniel-helder.jpg',
+        photo: '/images/team/daniel-helder.webp',
       },
       {
         initials: 'JV',
@@ -215,7 +215,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Zijn analytische blik vertaalt complexe financiële materie naar advies dat helder is en to the point. Op maat voor elke cliënt, altijd gericht op wat écht telt.',
         creds: 'MSc. Finance, CFA',
         linkedin: 'https://www.linkedin.com/in/joepvleugels/',
-        photo: '/images/team/joep-vleugels.jpg',
+        photo: '/images/team/joep-vleugels.webp',
       },
       {
         initials: 'AV',
@@ -224,7 +224,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Gedreven om families te helpen hun financiële doelen en persoonlijke waarden te vertalen naar langetermijnbeleggingsstrategieën.',
         creds: 'MSc. Strategic Management',
         linkedin: 'https://www.linkedin.com/in/alexveth/',
-        photo: '/images/team/alex-veth.jpg',
+        photo: '/images/team/alex-veth.webp',
       },
       {
         initials: 'LP',
@@ -233,7 +233,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Vertaalt moeiteloos tussen cliënt en collega\'s, van wens naar actie en weer terug. Precisie, snelheid en focus vormen een combinatie die haar bij iedereen onmisbaar maakt.',
         creds: 'MSc. Finance & Investments, CFA',
         linkedin: 'https://www.linkedin.com/in/lisa-pelk/',
-        photo: '/images/team/lisa-pelk.jpg',
+        photo: '/images/team/lisa-pelk.webp',
       },
       {
         initials: 'GvN',
@@ -242,7 +242,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Ondersteunt de dagelijkse operatie binnen Bluemetric en vormt een belangrijke schakel tussen klanten, collega\'s en externe partijen. Met oog op detail en een gestructureerde werkwijze draagt ze bij aan het verder professionaliseren van processen en het borgen van kwaliteit.',
         creds: 'BSc. Business Administration',
         linkedin: 'https://www.linkedin.com/in/gina-van-nijendaal-55681b97/',
-        photo: '/images/team/gina-van-nijendaal.jpg',
+        photo: '/images/team/gina-van-nijendaal.webp',
       },
       {
         initials: 'DP',
@@ -251,7 +251,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Brengt een sterke analytische en procesgerichte achtergrond mee die goed aansluit bij de dynamische wereld van private equity en vermogensbeheer. Hierdoor kan zij snel schakelen en toch overzicht houden in een complexe, resultaatgerichte omgeving.',
         creds: 'LL.B.',
         linkedin: 'https://www.linkedin.com/in/dominique-pietersen-a427631a7/',
-        photo: '/images/team/dominique-pietersen.jpg',
+        photo: '/images/team/dominique-pietersen.webp',
       },
     ],
     investment: [
@@ -262,7 +262,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Verantwoordelijk voor het analistenteam en drijvende kracht achter de ontwikkeling van innovatieve investeringsconcepten in publieke en private markten.',
         creds: 'MSc. Financial Economics, LL.M., CFA, CAIA',
         linkedin: 'https://www.linkedin.com/in/koen-van-mierlo-4a47b698/',
-        photo: '/images/team/koen-van-mierlo.jpg',
+        photo: '/images/team/koen-van-mierlo.webp',
       },
       {
         initials: 'DK',
@@ -271,7 +271,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Combineert diepgaande kennis van de Private Equity-sector met uitgebreide analyses voor het Investment Committee, met nadruk op minder voor de hand liggende factoren.',
         creds: 'MSc. Financial Economics, CAIA',
         linkedin: 'https://www.linkedin.com/in/diederik-kappelle-889043b9/',
-        photo: '/images/team/diederik-kappelle.jpg',
+        photo: '/images/team/diederik-kappelle.webp',
       },
       {
         initials: 'JC',
@@ -280,7 +280,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Vertaalt fondsselectie en monitoring binnen private markets naar scherp onderbouwde aanbevelingen voor het Investment Committee. Grondige due diligence en datagedreven rapportage zorgen ervoor dat cliënten altijd helder zicht houden op hun portefeuille.',
         creds: 'MSc. Finance & Investments',
         linkedin: 'https://www.linkedin.com/in/joost-cankrien/',
-        photo: '/images/team/joost-cankrien.jpg',
+        photo: '/images/team/joost-cankrien.webp',
       },
       {
         initials: 'AS',
@@ -289,7 +289,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Biedt een waardevolle bijdrage aan het analistenteam vanwege haar analystische vaardigheden en het automatiseren van kwantitatieve processen.',
         creds: 'MSc. Quantitative Finance',
         linkedin: 'https://www.linkedin.com/in/annegiensmilde/',
-        photo: '/images/team/annegien-smilde.jpg',
+        photo: '/images/team/annegien-smilde.webp',
       },
       {
         initials: 'BH',
@@ -298,7 +298,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Zet zijn kwantitatieve scherpte in voor het ontwikkelen van financiële analyses en het automatiseren van beleggingsprocessen.',
         creds: 'MSc. Econometrics & Operations Research',
         linkedin: 'https://www.linkedin.com/in/benjamin-houkes-935121183/',
-        photo: '/images/team/benjamin-houkes.jpg',
+        photo: '/images/team/benjamin-houkes.webp',
       },
       {
         initials: 'BvL',
@@ -307,7 +307,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Combineert een scherpe analytische blik met brede interesse in financiële markten, en levert zo een bijdrage aan gedegen beleggingsonderzoek en portefeuilleanalyse over alle beleggingscategorieën.',
         creds: 'MSc. Finance',
         linkedin: 'https://www.linkedin.com/in/bart-van-lidth-de-jeude-a747842a0/',
-        photo: '/images/team/bart-van-lidth.jpg',
+        photo: '/images/team/bart-van-lidth.webp',
       },
       {
         initials: 'NvL',
@@ -316,7 +316,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Brengt een analytische achtergrond samen met een brede blik op financiële markten, wat resulteert in heldere, datagedreven inzichten, met oog voor de bredere context waarin beleggingscategorieën zich bewegen.',
         creds: 'MSc. Econometrics',
         linkedin: 'https://www.linkedin.com/in/nick-van-leeuwen-3aa759232/',
-        photo: '/images/team/nick-van-leeuwen.jpg',
+        photo: '/images/team/nick-van-leeuwen.webp',
       },
       {
         initials: 'RdH',
@@ -325,7 +325,7 @@ export const teamTranslations: { en: TeamText; nl: TeamText } = {
         bio: 'Combineert een onafhankelijk oordeel met een kritische en analytische benadering. Op basis van zijn brede ervaring stelt hij aannames en onderliggende drijfveren ter discussie in plaats van te vertrouwen op externe narratieven.',
         creds: 'MSc. Business Administration',
         linkedin: 'https://www.linkedin.com/in/rik-de-haan/',
-        photo: '/images/team/rik-de-haan.jpg',
+        photo: '/images/team/rik-de-haan.webp',
       },
     ],
   },

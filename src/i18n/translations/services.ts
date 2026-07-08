@@ -9,6 +9,8 @@ interface ServicesText {
   pageLabel: string
   pageHeading: string
   pageSub: string
+  advisoryDesc: string
+  advisoryDesc2: string
   sectionLabel: string
   sectionHeading: string
   services: Service[]
@@ -19,6 +21,8 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
     pageLabel: 'Services',
     pageHeading: 'How we serve you',
     pageSub: 'Institutional-grade investment advisory tailored to the needs of ultra-high-net-worth families and Family Offices.',
+    advisoryDesc: 'Institutional-grade investment advisory across public and private markets.',
+    advisoryDesc2: 'We combine data-driven insights with access to institutional-quality opportunities, acting as a trusted advisor and specialist to wealthy individuals and family officers.',
     sectionLabel: 'Our Expertise',
     sectionHeading: 'Five pillars of service',
     services: [
@@ -26,31 +30,31 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
         num: '01',
         title: 'Strategic Asset Allocation',
         desc: 'Constructing and continuously optimizing diversified portfolios aligned with your long-term objectives and risk appetite.',
-        items: ['Total portfolio construction and optimization', 'Risk-return profiling and scenario analysis', 'Periodic rebalancing and tactical adjustments'],
+        items: ['Total portfolio construction and optimization', 'Risk-return profiling and scenario analysis', 'Periodic rebalancing'],
       },
       {
         num: '02',
         title: 'Manager Selection',
         desc: 'Rigorous, data-driven identification and due diligence of best-in-class investment managers across all asset classes.',
-        items: ['Quantitative screening and qualitative assessment', 'Pre-Selection Committee and investment review', 'Ongoing monitoring and performance attribution'],
+        items: ['Quantitative and qualitative screening', 'Proactive sourcing and commitment pacing', 'Onboarding and implementation support'],
       },
       {
         num: '03',
-        title: 'Monitoring',
-        desc: 'Transparent reporting and in-depth risk analysis across all asset classes, custodians, and structures in a single unified platform.',
-        items: ['Multi-custodian aggregation and custom dashboards', 'Performance attribution and benchmarking', 'Factor-based risk, stress testing, and liquidity analysis'],
+        title: 'Monitoring & Reporting',
+        desc: 'Continuous oversight and consolidated reporting, ensuring complete portfolio transparency.',
+        items: ['Short and long-term forecasting', 'Tracking of market and portfolio developments', 'Monitoring through leading data providers'],
       },
       {
         num: '04',
-        title: 'Advisory',
-        desc: 'Expert guidance across public and private markets, combining tactical allocation with access to institutional-quality investment opportunities.',
-        items: ['Public markets: equity, fixed income, and ETF strategies', 'Private markets: PE, VC, infrastructure, and private debt', 'Co-investments, secondaries, and tail-risk hedging'],
+        title: 'Cash Flow Planning',
+        desc: 'Comprehensive liquidity and cash flow planning, supported by our in-house developed forecasting model, to align investment horizons with personal and family commitments.',
+        items: ['Multi-year cash flow projections', 'Liquidity management and capital planning', 'Distribution and capital call forecasting'],
       },
       {
         num: '05',
-        title: 'Cash Flow Planning',
-        desc: 'Comprehensive liquidity planning and cash flow monitoring to align investment horizons with personal and family commitments.',
-        items: ['Multi-year cash flow projections', 'Liquidity management and commitment pacing', 'Distribution and capital call forecasting'],
+        title: 'Operational Excellence',
+        desc: 'End-to-end operational support across the full investment lifecycle, from structuring and transitions to ongoing data & document management.',
+        items: ['Transition management and investment structuring', 'Banking fee negotiation and KYC/AML support', 'Corporate actions and document and stakeholder management'],
       },
     ],
   },
@@ -58,6 +62,8 @@ export const servicesTranslations: { en: ServicesText; nl: ServicesText } = {
     pageLabel: 'Diensten',
     pageHeading: 'Hoe wij u dienen',
     pageSub: 'Institutionele vermogensbegeleiding op maat voor vermogende families en Family Offices.',
+    advisoryDesc: 'Institutional-grade investment advisory across public and private markets.',
+    advisoryDesc2: 'We combine data-driven insights with access to institutional-quality opportunities, acting as a trusted advisor and specialist to wealthy individuals and family officers.',
     sectionLabel: 'Onze Expertise',
     sectionHeading: 'Vijf pijlers van dienstverlening',
     services: [
