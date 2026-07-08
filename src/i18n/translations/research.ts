@@ -16,7 +16,7 @@ interface ResearchText {
 
 export const researchTranslations: { en: ResearchText; nl: ResearchText } = {
   en: {
-    pageLabel: 'Insights',
+    pageLabel: 'Research',
     pageHeading: 'Insights & Publications',
     pageSub: 'Research-driven perspectives on markets, asset allocation, and portfolio strategy.',
     readLink: 'Read article →',
