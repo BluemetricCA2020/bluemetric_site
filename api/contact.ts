@@ -3,34 +3,66 @@ import { Resend } from 'resend'
 
 const resend = new Resend(process.env.RESEND_API_KEY)
 
+const ALLOWED_SUBJECTS = new Set(['advisory', 'reporting', 'private', 'general'])
+const EMAIL_REGEX = /^[^\s@<>"]+@[^\s@<>"]+\.[^\s@<>"]{2,}$/
+
+const escapeHtml = (s: string) =>
+  s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;')
+
+const str = (v: unknown, max: number) => (typeof v === 'string' ? v.trim().slice(0, max) : '')
+
+const oneLine = (s: string) => s.replace(/[\r\n]+/g, ' ')
+
 export default async function handler(req: Request): Promise<Response> {
   if (req.method !== 'POST') {
     return new Response('Method not allowed', { status: 405 })
   }
 
-  let body: { firstName: string; lastName: string; email: string; phone: string; subject: string; message: string }
+  let body: Record<string, unknown>
   try {
-    body = await req.json()
+    const parsed: unknown = await req.json()
+    if (!parsed || typeof parsed !== 'object') throw new Error('Invalid body')
+    body = parsed as Record<string, unknown>
   } catch {
     return new Response('Invalid JSON', { status: 400 })
   }
 
-  const { firstName, lastName, email, phone, subject, message } = body
+  // Honeypot: real users never fill this hidden field. Pretend success so bots don't retry.
+  if (str(body.website, 200)) {
+    return new Response('OK', { status: 200 })
+  }
+
+  const firstName = oneLine(str(body.firstName, 100))
+  const lastName = oneLine(str(body.lastName, 100))
+  const email = str(body.email, 254)
+  const phone = oneLine(str(body.phone, 50))
+  const subjectRaw = str(body.subject, 50)
+  const subject = ALLOWED_SUBJECTS.has(subjectRaw) ? subjectRaw : ''
+  const message = str(body.message, 5000)
 
   if (!firstName || !lastName || !email) {
     return new Response('Missing required fields', { status: 400 })
   }
 
+  if (!EMAIL_REGEX.test(email)) {
+    return new Response('Invalid email', { status: 400 })
+  }
+
   const subjectLine = subject
-    ? `Contact form: ${subject} — ${firstName} ${lastName}`
-    : `Contact form — ${firstName} ${lastName}`
+    ? `Contact Formulier Website: ${subject} - ${firstName} ${lastName}`
+    : `Contact Formulier Website - ${firstName} ${lastName}`
 
   const html = `
-    <p><strong>Name:</strong> ${firstName} ${lastName}</p>
-    <p><strong>Email:</strong> <a href="mailto:${email}">${email}</a></p>
-    ${phone ? `<p><strong>Phone:</strong> ${phone}</p>` : ''}
-    ${subject ? `<p><strong>Subject:</strong> ${subject}</p>` : ''}
-    ${message ? `<p><strong>Message:</strong></p><p>${message.replace(/\n/g, '<br>')}</p>` : ''}
+    <p><strong>Name:</strong> ${escapeHtml(firstName)} ${escapeHtml(lastName)}</p>
+    <p><strong>Email:</strong> <a href="mailto:${encodeURIComponent(email)}">${escapeHtml(email)}</a></p>
+    ${phone ? `<p><strong>Phone:</strong> ${escapeHtml(phone)}</p>` : ''}
+    ${subject ? `<p><strong>Subject:</strong> ${escapeHtml(subject)}</p>` : ''}
+    ${message ? `<p><strong>Message:</strong></p><p>${escapeHtml(message).replace(/\r?\n/g, '<br>')}</p>` : ''}
   `
 
   const { error } = await resend.emails.send({

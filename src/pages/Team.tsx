@@ -22,7 +22,7 @@ export default function Team() {
     <div className="team-card" key={i}>
       <div className="team-photo-wrap">
         {m.photo
-          ? <img src={m.photo} alt={m.name} className="team-photo" />
+          ? <img src={m.photo} alt={m.name} className="team-photo" loading="lazy" decoding="async" />
           : <div className="team-initials">{m.initials}</div>
         }
       </div>

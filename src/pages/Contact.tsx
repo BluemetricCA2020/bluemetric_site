@@ -124,6 +124,10 @@ export default function Contact() {
               <label htmlFor="message">{t.labelMessage}</label>
               <textarea id="message" name="message" rows={4}></textarea>
             </div>
+            <div aria-hidden="true" style={{ position: 'absolute', left: '-10000px', width: 1, height: 1, overflow: 'hidden' }}>
+              <label htmlFor="website">Website</label>
+              <input type="text" id="website" name="website" tabIndex={-1} autoComplete="off" />
+            </div>
             <button type="submit" className="form-submit" disabled={status === 'sending' || status === 'success'}>
               {status === 'sending' ? t.sending : t.submit}
             </button>
